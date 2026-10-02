@@ -12,7 +12,6 @@
 
   <style>
     :root {
-      /* Esquema de cores claro inspirado na referência */
       --bg: #faf8f5;                 /* Fundo creme/bege muito suave */
       --card-bg: #ffffff;            /* Fundo branco dos botões e cartões */
       --card-border: #e6e1da;        /* Contorno subtil dos cartões */
@@ -23,7 +22,6 @@
       --text-link: #1c2d42;          /* Azul escuro / grafite para os títulos */
       --text-date: #636b78;          /* Cinza suave para metadados e botões */
       
-      --accent-glow: rgba(184, 93, 56, 0.12);
       --shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
       --shadow-hover: 0 6px 16px rgba(0, 0, 0, 0.07);
     }
@@ -41,11 +39,48 @@
       min-height: 100vh;
       line-height: 1.5;
       padding: 30px 20px 40px;
+      overflow-x: hidden; /* Evita barras horizontais causadas pela rotação */
+      position: relative;
+    }
+
+    /* Decoração da Guitarra idêntica à fita de película do Cinema */
+    .guitar-banner-corner {
+      position: fixed;
+      top: -30px;
+      right: -55px;
+      width: 320px;
+      height: 140px;
+      transform: rotate(-45deg);
+      transform-origin: center;
+      z-index: 999;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      filter: drop-shadow(-8px 12px 18px rgba(0, 0, 0, 0.28));
+    }
+
+    .guitar-banner-corner img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      mix-blend-mode: multiply; /* Remove o fundo branco integrando no tom bege da página */
+    }
+
+    @media (max-width: 768px) {
+      .guitar-banner-corner {
+        width: 220px;
+        height: 100px;
+        top: -20px;
+        right: -45px;
+      }
     }
 
     .container {
       max-width: 680px;
       margin: 0 auto;
+      position: relative;
+      z-index: 1;
     }
 
     /* Barra Superior com o Botão de Retorno */
@@ -208,6 +243,11 @@
   </style>
 </head>
 <body>
+
+  <!-- Guitarra Elétrica no Canto Superior Direito no mesmo estilo da Película -->
+  <div class="guitar-banner-corner" aria-hidden="true">
+    <img src="watermarked_img_153616660770584494.jpg" alt="Guitarra Elétrica">
+  </div>
 
   <main class="container">
     
