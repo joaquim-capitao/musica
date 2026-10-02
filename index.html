@@ -12,19 +12,20 @@
 
   <style>
     :root {
-      /* Cores baseadas no design da página */
-      --bg: #1c1b24; /* Fundo escuro azulado/acinzentado */
-      --card-bg: rgba(255, 255, 255, 0.03);
-      --card-border: rgba(255, 255, 255, 0.06);
-      --card-hover-border: rgba(243, 112, 34, 0.4);
-      --card-hover-bg: rgba(243, 112, 34, 0.05);
+      /* Esquema de cores claro inspirado na referência */
+      --bg: #faf8f5;                 /* Fundo creme/bege muito suave */
+      --card-bg: #ffffff;            /* Fundo branco dos botões e cartões */
+      --card-border: #e6e1da;        /* Contorno subtil dos cartões */
+      --card-hover-border: #d0c8be;  /* Borda ao passar o rato */
+      --card-hover-bg: #fdfdfd;
       
-      --accent: #f37022; /* Laranja dos títulos */
-      --text-link: #7a8add; /* Azul suave dos links */
-      --text-date: #c8b975; /* Amarelado das datas e subtítulo */
+      --accent: #b85d38;             /* Terracota / Tom acobreado do título */
+      --text-link: #1c2d42;          /* Azul escuro / grafite para os títulos */
+      --text-date: #636b78;          /* Cinza suave para metadados e botões */
       
-      --accent-glow: rgba(243, 112, 34, 0.15);
-      --shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.3);
+      --accent-glow: rgba(184, 93, 56, 0.12);
+      --shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+      --shadow-hover: 0 6px 16px rgba(0, 0, 0, 0.07);
     }
 
     * {
@@ -47,7 +48,7 @@
       margin: 0 auto;
     }
 
-    /* Barra Superior com o Link de Retorno */
+    /* Barra Superior com o Botão de Retorno */
     .top-nav {
       display: flex;
       align-items: center;
@@ -59,15 +60,15 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      padding: 8px 14px;
+      padding: 8px 16px;
       background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 999px;
       color: var(--text-date);
       text-decoration: none;
-      font-size: 0.85rem;
+      font-size: 0.88rem;
       font-weight: 500;
-      letter-spacing: 0.02em;
+      box-shadow: var(--shadow);
       transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -81,9 +82,8 @@
     .nav-home-btn:hover {
       color: var(--accent);
       border-color: var(--card-hover-border);
-      background-color: var(--card-hover-bg);
       transform: translateX(-2px);
-      box-shadow: 0 4px 14px -2px var(--accent-glow);
+      box-shadow: var(--shadow-hover);
     }
 
     .nav-home-btn:hover svg {
@@ -91,8 +91,8 @@
     }
 
     header {
-      margin-bottom: 40px;
-      padding-bottom: 24px;
+      margin-bottom: 32px;
+      padding-bottom: 20px;
       border-bottom: 1px solid var(--card-border);
     }
 
@@ -101,14 +101,7 @@
       font-weight: 700;
       text-transform: uppercase;
       color: var(--accent);
-      margin-bottom: 12px;
-      letter-spacing: 0.02em;
-    }
- 
-    .subtitle {
-      color: var(--text-date);
-      font-size: 1rem;
-      font-weight: 400;
+      letter-spacing: 0.03em;
     }
 
     .chronicles-list {
@@ -122,7 +115,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 14px 18px;
+      padding: 16px 20px;
       background-color: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 12px;
@@ -135,19 +128,18 @@
       transform: translateY(-2px);
       border-color: var(--card-hover-border);
       background-color: var(--card-hover-bg);
-      box-shadow: 0 8px 24px -4px var(--accent-glow);
+      box-shadow: var(--shadow-hover);
     }
 
     .chronicles-list .title {
       color: var(--text-link);
-      font-weight: 400;
-      font-size: 1.1rem;
+      font-weight: 500;
+      font-size: 1.05rem;
     }
 
     .chronicles-list .date {
       color: var(--text-date);
-      font-size: 0.9rem;
-      font-weight: 400;
+      font-size: 0.88rem;
       white-space: nowrap;
       margin-left: 16px;
     }
@@ -164,33 +156,34 @@
     }
 
     .page-btn {
-      background-color: transparent;
-      border: 1px solid transparent;
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
       color: var(--text-link);
-      padding: 6px 12px;
+      padding: 6px 14px;
       font-size: 0.9rem;
       border-radius: 8px;
       cursor: pointer;
       font-family: inherit;
+      box-shadow: var(--shadow);
       transition: all 0.2s ease;
     }
 
     .page-btn:hover:not(:disabled) {
-      border-color: var(--card-hover-border);
-      background-color: var(--card-hover-bg);
+      border-color: var(--accent);
       color: var(--accent);
     }
 
     .page-btn.active {
-      background-color: var(--card-bg);
+      background-color: var(--accent);
       border-color: var(--accent);
-      color: var(--accent);
+      color: #ffffff;
       font-weight: 700;
     }
 
     .page-btn:disabled {
-      opacity: 0.3;
+      opacity: 0.4;
       cursor: default;
+      box-shadow: none;
     }
 
     footer {
@@ -206,12 +199,10 @@
       text-decoration: none;
       color: var(--text-date);
       font-size: 0.85rem;
-      opacity: 0.7;
       transition: all 0.2s ease;
     }
 
     .footer-home-btn:hover {
-      opacity: 1;
       color: var(--accent);
     }
   </style>
@@ -220,7 +211,7 @@
 
   <main class="container">
     
-    <!-- Botão Elegante no Início -->
+    <!-- Botão no Início -->
     <nav class="top-nav" aria-label="Navegação Superior">
       <a href="https://joaquim-capitao.github.io/" class="nav-home-btn">
         <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -235,12 +226,9 @@
     </header>
     
     <ul class="chronicles-list" id="chronicles-list">
-
-     <li><a href="https://joaquim-capitao.github.io/musica/em-construcao"><span class="title">As Melhores Músicas de Sempre</span></a></li>
-     <li><a href="https://joaquim-capitao.github.io/musica/generos"><span class="title">Linhagens Sonoras</span></a></li>
-     <li><a href="https://joaquim-capitao.github.io/musica/em-construcao"><span class="title">Guitarra (O que já aprendi)</span></a></li>
-
-
+      <li><a href="https://joaquim-capitao.github.io/musica/em-construcao"><span class="title">As Melhores Músicas de Sempre</span></a></li>
+      <li><a href="https://joaquim-capitao.github.io/musica/generos"><span class="title">Linhagens Sonoras</span></a></li>
+      <li><a href="https://joaquim-capitao.github.io/musica/em-construcao"><span class="title">Guitarra (O que já aprendi)</span></a></li>
     </ul>
 
     <!-- Navegação de Páginas -->
