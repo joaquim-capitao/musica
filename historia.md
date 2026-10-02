@@ -55,4 +55,6 @@ Anos 70 e 80 (Sintetizadores e Pop): Surgiram as caixas de ritmos, os sintetizad
 
 Anos 80 e 90 (Hip-Hop): No Bronx (Nova Iorque), os DJs transformaram os gira-discos em instrumentos e os MCs usaram rimas afiadas sobre batidas com samples para dar voz à rua.
 
-Hoje: Um estúdio inteiro cabe num portátil ou num telemóvel. Autotune, produção digital, trap, pop, metal e orquestras inteiras cruzam-se no mesmo ecrã à distância de um clique.
+Hoje: Um estúdio inteiro cabe num portátil ou num telemóvel. Autotune, produção digital, pop, rock e orquestras inteiras cruzam-se no mesmo ecrã à distância de um clique.
+
+
