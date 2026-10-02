@@ -1,26 +1,179 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/style-dark.css">
-</head>
-<body>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
-    <main class="container">
-        <article>
-            {{ content }}
-        </article>
-        
-        <!-- Rodapé Centralizado com Ícone e Texto -->
-        <footer style="text-align: center; margin-top: 60px; padding: 30px 0; clear: both;">
-            <a href="{{ '/index' | relative_url }}" style="text-decoration: none; color: inherit; display: inline-flex; flex-direction: column; align-items: center; gap: 8px; opacity: 0.8; transition: opacity 0.2s;" title="Voltar ao índice">
-                <span style="font-size: 36px; line-height: 1;">🏠</span>
-                <span style="font-size: 14px; font-family: sans-serif; letter-spacing: 1px; text-transform: uppercase;">Índice</span>
-            </a>
-        </footer>
-    </main>
+/* ==========================================================================
+   VARIÁVEIS GLOBAIS (Tema Claro Pastel)
+   ========================================================================== */
+:root {
+  --bg-main: #fbf9f5;        /* Fundo creme suave / off-white quente */
+  --bg-card: #f2eee8;        /* Cartões e blocos em tom pastel neutro */
+  --text-main: #2d3142;      /* Ardósia escuro para ótima legibilidade e contraste */
+  --text-muted: #6b7280;     /* Cinzento suave para subtítulos e metadados */
+  --accent: #6c7da9;         /* Azul pastel suave para links e marcadores */
+  --accent-hover: #4f5f8b;   /* Versão mais contrastante para estados hover */
+  --border-color: #e5ded6;   /* Linhas divisórias subtis em tom pastel */
+  
+  /* Tipografia */
+  --font-ubuntu: "Ubuntu", system-ui, -apple-system, sans-serif;
+  
+  /* Espaçamento e Largura */
+  --max-width: 680px;        /* Largura confortável para leitura */
+}
 
-</body>
-</html>
+/* ==========================================================================
+   RESET E CONFIGURAÇÃO BASE
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: var(--font-ubuntu);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 1.5rem 1.2rem;
+}
+
+/* ==========================================================================
+   ESTRUTURA E LAYOUT
+   ========================================================================== */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+/* Header / Título da Página */
+header {
+  margin-bottom: 3.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1.5rem;
+}
+
+/* ==========================================================================
+   TIPOGRAFIA (Estilo Clean Pastel)
+   ========================================================================== */
+h1, h2, h3, h4 {
+  color: #c06c58;            /* Terracota pastel suave com contraste adequado */
+  font-family: var(--font-ubuntu);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+  margin-top: 1.5rem;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  border-left: 4px solid var(--accent);
+  padding-left: 0.75rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-weight: 400;          /* Peso regular para garantir contraste nítido em fundo claro */
+  text-align: justify; 
+  line-height: 1.6;
+}
+
+.meta {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ==========================================================================
+   ELEMENTOS DE TEXTO E LINKS
+   ========================================================================== */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  border-bottom-color: var(--accent-hover);
+}
+
+/* Citações em Bloco (Blockquotes) */
+blockquote {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  background-color: var(--bg-card);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+/* Imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+/* Elementos de Destaque */
+strong {
+  color: var(--text-main);
+  font-weight: 700;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border-color);
+  margin: 3rem 0;
+}
+
+/* ==========================================================================
+   ADAPTAÇÃO PARA SMARTPHONES (Media Queries)
+   ========================================================================== */
+@media (max-width: 640px) {
+  html {
+    font-size: 18px;
+  }
+
+  body {
+    padding: 1rem 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    text-align: left;
+    line-height: 1.6;
+  }
+}
