@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
 /* ==========================================================================
-   VARIÁVEIS GLOBAIS (Tema Dark Moderno)
+   VARIÁVEIS GLOBAIS (Tema Claro Pastel)
    ========================================================================== */
 :root {
-  --bg-main: #1e1e2b;        /* Fundo */
-  --bg-card: #37364a;        /* Fundo ligeiramente mais claro para cartões ou blocos */
-  --text-main: #ebe5ce;      /* Texto principal */
-  --text-muted: #f4f5a9;     /* Subtítulos, metadados e citações */
-  --accent: #babbf5;         /* Links e destaques */
-  --accent-hover: #818cf8;   /* Variação mais clara do accent para estados hover */
-  --border-color: #f26d1f;   /* Linhas divisórias subtis */
+  --bg-main: #fbf9f5;        /* Fundo creme suave / off-white quente */
+  --bg-card: #f2eee8;        /* Cartões e blocos em tom pastel neutro */
+  --text-main: #2d3142;      /* Ardósia escuro para ótima legibilidade e contraste */
+  --text-muted: #6b7280;     /* Cinzento suave para subtítulos e metadados */
+  --accent: #6c7da9;         /* Azul pastel suave para links e marcadores */
+  --accent-hover: #4f5f8b;   /* Versão mais contrastante para estados hover */
+  --border-color: #e5ded6;   /* Linhas divisórias subtis em tom pastel */
   
   /* Tipografia */
   --font-ubuntu: "Ubuntu", system-ui, -apple-system, sans-serif;
   
   /* Espaçamento e Largura */
-  --max-width: 680px;        /* Largura ideal para leitura (entre 60-75 caracteres por linha) */
+  --max-width: 680px;        /* Largura confortável para leitura */
 }
 
 /* ==========================================================================
@@ -28,8 +29,8 @@
 }
 
 html {
-  font-size: 18px;           /* Tamanho da fonte principal em PC */
-  line-height: 1.6;          /* Excelente legibilidade para a fonte Ubuntu */
+  font-size: 18px;
+  line-height: 1.6;
   scroll-behavior: smooth;
 }
 
@@ -40,7 +41,7 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 1.5rem 1.2rem;    /* Margem confortável para respiração do layout */
+  padding: 1.5rem 1.2rem;
 }
 
 /* ==========================================================================
@@ -60,10 +61,10 @@ header {
 }
 
 /* ==========================================================================
-   TIPOGRAFIA (Estilo Clean & Moderno)
+   TIPOGRAFIA (Estilo Clean Pastel)
    ========================================================================== */
 h1, h2, h3, h4 {
-  color: #f7853e;            /* Cor forte para Títulos */
+  color: #c06c58;            /* Terracota pastel suave com contraste adequado */
   font-family: var(--font-ubuntu);
   font-weight: 700;
   line-height: 1.25;
@@ -79,14 +80,14 @@ h1 {
 
 h2 {
   font-size: 1.7rem;
-  font-weight: 500;          /* Peso ligeiramente menor para elegância */
+  font-weight: 500;
   border-left: 4px solid var(--accent);
   padding-left: 0.75rem;
 }
 
 p {
   margin-bottom: 1.5rem;
-  font-weight: 400;          /* A variante Light da Ubuntu funciona muito bem em ecrãs escuros */
+  font-weight: 400;          /* Peso regular para garantir contraste nítido em fundo claro */
   text-align: justify; 
   line-height: 1.6;
 }
@@ -104,7 +105,7 @@ p {
    ========================================================================== */
 a {
   color: var(--accent);
-  text-decoration: none;     /* Estilo moderno prefere links sem sublinhado por padrão */
+  text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease;
 }
@@ -118,7 +119,7 @@ a:hover {
 blockquote {
   margin: 2rem 0;
   padding: 1rem 1.5rem;
-  background-color: var(--bg-card); /* Destaca a citação num bloco moderno */
+  background-color: var(--bg-card);
   border-left: 4px solid var(--accent);
   border-radius: 0 8px 8px 0;
   font-style: italic;
@@ -126,7 +127,7 @@ blockquote {
 }
 
 blockquote p {
-  margin-bottom: 0;          /* Remove margem extra dentro do bloco */
+  margin-bottom: 0;
 }
 
 /* Imagens */
@@ -135,19 +136,19 @@ img {
   height: auto;
   display: block;
   margin: 2rem auto;
-  border-radius: 12px;        /* Cantos arredondados */
-  border: 3px solid var(--border-color); /* Protege os limites de imagens escuras */
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
 }
 
 /* Elementos de Destaque */
 strong {
-  color: #fcfced;            /* Realçar negrito */
+  color: var(--text-main);
   font-weight: 700;
 }
 
 hr {
   border: 0;
-  border-top: 1px solid var(--border-color); /* Linha sólida e fina em vez de tracejada */
+  border-top: 1px solid var(--border-color);
   margin: 3rem 0;
 }
 
@@ -156,7 +157,7 @@ hr {
    ========================================================================== */
 @media (max-width: 640px) {
   html {
-    font-size: 18px;         /* Ajuste da escala de fonte para ecrãs pequenos */
+    font-size: 18px;
   }
 
   body {
@@ -171,8 +172,8 @@ hr {
     font-size: 1.5rem;
   }
 
-   p {
-  text-align: left;        /* O texto fica alinhado à esquerda no telemóvel */
-  line-height: 1.6;
-}
+  p {
+    text-align: left;
+    line-height: 1.6;
+  }
 }
