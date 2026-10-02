@@ -1,0 +1,1100 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Colecção de 100 canções, com artista, álbum, ano e resumo da mensagem principal.">
+<title>100 Canções · Mensagens através dos tempos</title>
+<style>
+:root {
+  --bg: #fbf9f5;
+  --panel: #ffffff;
+  --panel2: #f5f2eb;
+  --text: #1b2438;
+  --muted: #5e697d;
+  --accent: #b95e45;
+  --accent2: #d97757;
+  --border: #e6dfd5;
+  --shadow: 0 8px 24px rgba(27, 36, 56, 0.06), 0 2px 6px rgba(27, 36, 56, 0.04);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin: 0;
+  background-color: var(--bg);
+  background-image: radial-gradient(circle at 10% 0%, #f4ede2 0%, #fbf9f5 55%, #f5efe6 100%);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+header{padding:56px 20px 34px;text-align:center}
+.hero{max-width:980px;margin:auto}
+.eyebrow{
+  display:inline-block;
+  padding:6px 14px;
+  border:1px solid #dfd7cc;
+  border-radius:999px;
+  color:#5a6578;
+  font-size:.78rem;
+  font-weight:700;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  background:#ffffff;
+  box-shadow:0 1px 3px rgba(0,0,0,0.03);
+}
+h1{
+  margin:18px 0 10px;
+  font-size:clamp(2.1rem, 5vw, 4rem);
+  line-height:1.05;
+  letter-spacing:-.035em;
+  color:var(--accent);
+  font-weight:800;
+  text-transform:uppercase;
+}
+.subtitle{margin:0 auto;max-width:760px;color:var(--muted);font-size:1.05rem}
+.controls{
+  position:sticky;
+  top:0;
+  z-index:10;
+  padding:12px 20px;
+  background:rgba(251, 249, 245, 0.88);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--border);
+}
+.control-inner{max-width:1200px;margin:auto;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.search{
+  flex:1 1 300px;
+  min-width:0;
+  background:var(--panel);
+  border:1px solid var(--border);
+  color:var(--text);
+  padding:12px 15px;
+  border-radius:14px;
+  font-size:1rem;
+  outline:none;
+  transition:border-color .15s ease, box-shadow .15s ease;
+  box-shadow:0 1px 2px rgba(0,0,0,.03);
+}
+.search:focus{
+  border-color:var(--accent);
+  box-shadow:0 0 0 3px rgba(185, 94, 69, 0.15);
+}
+select, .count{
+  background:var(--panel);
+  color:var(--text);
+  border:1px solid var(--border);
+  padding:11px 15px;
+  border-radius:14px;
+  font-size:.92rem;
+  box-shadow:0 1px 2px rgba(0,0,0,.03);
+}
+.count{color:var(--muted);white-space:nowrap;font-weight:500}
+main{max-width:1240px;margin:0 auto;padding:30px 20px 70px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.card{
+  position:relative;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:22px;
+  box-shadow:var(--shadow);
+  overflow:hidden;
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
+}
+.card::before{
+  content:"";
+  position:absolute;
+  inset:0 0 auto;
+  height:3px;
+  background:linear-gradient(90deg, var(--accent), var(--accent2));
+  opacity:.85;
+}
+.card:hover{
+  transform:translateY(-3px);
+  border-color:#d4c8b9;
+  box-shadow:0 14px 34px rgba(27, 36, 56, 0.10);
+}
+.card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.number{font-variant-numeric:tabular-nums;color:#8a94a6;font-size:.8rem;font-weight:800;letter-spacing:.08em}
+.year{
+  font-size:.78rem;
+  font-weight:700;
+  color:var(--accent);
+  background:#fbf3ef;
+  border:1px solid rgba(185, 94, 69, .25);
+  padding:4px 10px;
+  border-radius:999px;
+}
+h2{margin:0 0 5px;font-size:1.35rem;line-height:1.2;letter-spacing:-.02em;color:var(--text);font-weight:700}
+.artist{margin:0 0 17px;color:var(--accent);font-weight:600;font-size:.95rem}
+dl{margin:0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:12px 0;display:grid;gap:8px}
+dl div{display:grid;grid-template-columns:88px 1fr;gap:10px}
+dt{font-size:.73rem;text-transform:uppercase;letter-spacing:.08em;color:#7e8b9e;font-weight:750}
+dd{margin:0;color:#2c384e;font-size:.91rem;font-weight:500}
+.message{margin-top:15px}
+.message>span{font-size:.73rem;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);font-weight:800}
+.message p{margin:6px 0 0;color:#455165;font-size:.92rem;line-height:1.55}
+.empty{display:none;text-align:center;color:var(--muted);padding:60px 20px}
+footer{max-width:1000px;margin:0 auto;padding:0 20px 45px;text-align:center;color:#8591a3;font-size:.82rem}
+@media (max-width:1000px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){
+  header{padding:38px 16px 26px} main{padding:20px 14px 50px} .controls{padding:10px 14px}
+  .grid{grid-template-columns:1fr;gap:14px} .card{padding:19px;border-radius:15px}
+  .control-inner{display:grid;grid-template-columns:1fr 1fr} .search{grid-column:1/-1}
+  .count{text-align:center} h2{font-size:1.25rem}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="hero">
+    <span class="eyebrow">Uma viagem pela música</span>
+    <h1>A Mensagem da Música</h1>
+    <p class="subtitle">A selecção abaixo atravessa várias décadas. Os resumos são sínteses interpretativas da mensagem central de cada canção.</p>
+  </div>
+</header>
+<section class="controls" aria-label="Filtros">
+  <div class="control-inner">
+    <input id="search" class="search" type="search" placeholder="Pesquisar música ou artista…" aria-label="Pesquisar música ou artista">
+    <select id="year" aria-label="Filtrar por período">
+      <option value="all">Todos os anos</option>
+      <option value="2000">2000–2006</option>
+      <option value="1990">1990–1999</option>
+      <option value="1980">1980–1989</option>
+      <option value="1970">1970–1979</option>
+      <option value="1960">1960–1969</option>
+      <option value="1950">1950–1959</option>
+    </select>
+    <span id="count" class="count">100 músicas</span>
+  </div>
+</section>
+<main>
+  <section id="grid" class="grid" aria-live="polite">
+    <article class="card" data-artist="the killers" data-title="when you were young" data-year="2006">
+      <div class="card-top"><span class="number">01</span><span class="year">2006</span></div>
+      <h2>When You Were Young</h2>
+      <p class="artist">The Killers</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Sam&#x27;s Town</dd></div>
+        <div><dt>Lançamento</dt><dd>2006</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Nostalgia, desilusão e a sensação de que a vida adulta ficou aquém dos sonhos da juventude.</p></div>
+    </article><article class="card" data-artist="snow patrol" data-title="chasing cars" data-year="2006">
+      <div class="card-top"><span class="number">02</span><span class="year">2006</span></div>
+      <h2>Chasing Cars</h2>
+      <p class="artist">Snow Patrol</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Eyes Open</dd></div>
+        <div><dt>Lançamento</dt><dd>2006</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Desejo de parar o mundo e simplesmente permanecer com a pessoa amada, sem complicações.</p></div>
+    </article><article class="card" data-artist="keane" data-title="somewhere only we know" data-year="2004">
+      <div class="card-top"><span class="number">03</span><span class="year">2004</span></div>
+      <h2>Somewhere Only We Know</h2>
+      <p class="artist">Keane</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Hopes and Fears</dd></div>
+        <div><dt>Lançamento</dt><dd>2004</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Procura de um lugar íntimo e seguro, ligado a memórias partilhadas e a um sentimento de pertença.</p></div>
+    </article><article class="card" data-artist="the white stripes" data-title="seven nation army" data-year="2003">
+      <div class="card-top"><span class="number">04</span><span class="year">2003</span></div>
+      <h2>Seven Nation Army</h2>
+      <p class="artist">The White Stripes</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Elephant</dd></div>
+        <div><dt>Lançamento</dt><dd>2003</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Resistência e determinação perante adversários, rumores e uma sensação de confronto.</p></div>
+    </article><article class="card" data-artist="foo fighters" data-title="times like these" data-year="2002">
+      <div class="card-top"><span class="number">05</span><span class="year">2002</span></div>
+      <h2>Times Like These</h2>
+      <p class="artist">Foo Fighters</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>One by One</dd></div>
+        <div><dt>Lançamento</dt><dd>2002</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Reconstrução pessoal depois de uma fase difícil, valorizando o tempo e a capacidade de recomeçar.</p></div>
+    </article><article class="card" data-artist="coldplay" data-title="clocks" data-year="2002">
+      <div class="card-top"><span class="number">06</span><span class="year">2002</span></div>
+      <h2>Clocks</h2>
+      <p class="artist">Coldplay</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>A Rush of Blood to the Head</dd></div>
+        <div><dt>Lançamento</dt><dd>2002</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Ansiedade perante o tempo que passa, escolhas difíceis e a sensação de estar preso entre desejo e realidade.</p></div>
+    </article><article class="card" data-artist="coldplay" data-title="the scientist" data-year="2002">
+      <div class="card-top"><span class="number">07</span><span class="year">2002</span></div>
+      <h2>The Scientist</h2>
+      <p class="artist">Coldplay</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>A Rush of Blood to the Head</dd></div>
+        <div><dt>Lançamento</dt><dd>2002</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Arrependimento por uma relação desfeita e desejo de voltar ao início para compreender onde tudo correu mal.</p></div>
+    </article><article class="card" data-artist="coldplay" data-title="yellow" data-year="2000">
+      <div class="card-top"><span class="number">08</span><span class="year">2000</span></div>
+      <h2>Yellow</h2>
+      <p class="artist">Coldplay</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Parachutes</dd></div>
+        <div><dt>Lançamento</dt><dd>2000</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Declaração de admiração e dedicação intensa a alguém visto como extraordinariamente especial.</p></div>
+    </article><article class="card" data-artist="goo goo dolls" data-title="iris" data-year="1998">
+      <div class="card-top"><span class="number">09</span><span class="year">1998</span></div>
+      <h2>Iris</h2>
+      <p class="artist">Goo Goo Dolls</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Dizzy Up the Girl</dd></div>
+        <div><dt>Lançamento</dt><dd>1998</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Desejo de intimidade e de ser verdadeiramente compreendido, apesar do medo de vulnerabilidade.</p></div>
+    </article><article class="card" data-artist="radiohead" data-title="karma police" data-year="1997">
+      <div class="card-top"><span class="number">10</span><span class="year">1997</span></div>
+      <h2>Karma Police</h2>
+      <p class="artist">Radiohead</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>OK Computer</dd></div>
+        <div><dt>Lançamento</dt><dd>1997</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Uma visão satírica de controlo social, hipocrisia e eventual retorno das consequências sobre quem abusa do poder.</p></div>
+    </article><article class="card" data-artist="the wallflowers" data-title="one headlight" data-year="1996">
+      <div class="card-top"><span class="number">11</span><span class="year">1996</span></div>
+      <h2>One Headlight</h2>
+      <p class="artist">The Wallflowers</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Bringing Down the Horse</dd></div>
+        <div><dt>Lançamento</dt><dd>1996</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Solidão, desencanto e procura de sentido perante uma vida que parece ter perdido direcção.</p></div>
+    </article><article class="card" data-artist="oasis" data-title="don&#x27;t look back in anger" data-year="1995">
+      <div class="card-top"><span class="number">12</span><span class="year">1995</span></div>
+      <h2>Don&#x27;t Look Back in Anger</h2>
+      <p class="artist">Oasis</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>(What&#x27;s the Story) Morning Glory?</dd></div>
+        <div><dt>Lançamento</dt><dd>1995</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Aceitar o passado sem ficar preso à raiva, escolhendo seguir em frente com alguma esperança.</p></div>
+    </article><article class="card" data-artist="oasis" data-title="wonderwall" data-year="1995">
+      <div class="card-top"><span class="number">13</span><span class="year">1995</span></div>
+      <h2>Wonderwall</h2>
+      <p class="artist">Oasis</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>(What&#x27;s the Story) Morning Glory?</dd></div>
+        <div><dt>Lançamento</dt><dd>1995</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Atribuição de uma importância quase salvadora a alguém que poderá ajudar a ultrapassar uma fase difícil.</p></div>
+    </article><article class="card" data-artist="oasis" data-title="champagne supernova" data-year="1995">
+      <div class="card-top"><span class="number">14</span><span class="year">1995</span></div>
+      <h2>Champagne Supernova</h2>
+      <p class="artist">Oasis</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>(What&#x27;s the Story) Morning Glory?</dd></div>
+        <div><dt>Lançamento</dt><dd>1995</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Reflexão psicadélica e ambígua sobre mudança, fama, relações e a passagem do tempo.</p></div>
+    </article><article class="card" data-artist="smashing pumpkins" data-title="1979" data-year="1995">
+      <div class="card-top"><span class="number">15</span><span class="year">1995</span></div>
+      <h2>1979</h2>
+      <p class="artist">Smashing Pumpkins</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Mellon Collie and the Infinite Sadness</dd></div>
+        <div><dt>Lançamento</dt><dd>1995</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Nostalgia adolescente, liberdade e tédio suburbano, recordando uma juventude simultaneamente banal e intensa.</p></div>
+    </article><article class="card" data-artist="radiohead" data-title="fake plastic trees" data-year="1995">
+      <div class="card-top"><span class="number">16</span><span class="year">1995</span></div>
+      <h2>Fake Plastic Trees</h2>
+      <p class="artist">Radiohead</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>The Bends</dd></div>
+        <div><dt>Lançamento</dt><dd>1995</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Crítica à artificialidade, ao consumismo e às relações superficiais, acompanhada por uma forte sensação de fragilidade.</p></div>
+    </article><article class="card" data-artist="the cranberries" data-title="ode to my family" data-year="1994">
+      <div class="card-top"><span class="number">17</span><span class="year">1994</span></div>
+      <h2>Ode to My Family</h2>
+      <p class="artist">The Cranberries</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>No Need to Argue</dd></div>
+        <div><dt>Lançamento</dt><dd>1994</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Saudade da família e das raízes, contrastando a segurança da infância com as dificuldades da vida adulta.</p></div>
+    </article><article class="card" data-artist="counting crows" data-title="mr. jones" data-year="1993">
+      <div class="card-top"><span class="number">18</span><span class="year">1993</span></div>
+      <h2>Mr. Jones</h2>
+      <p class="artist">Counting Crows</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>August and Everything After</dd></div>
+        <div><dt>Lançamento</dt><dd>1993</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Sonho de reconhecimento e sucesso como possível resposta à insegurança e ao desejo de escapar à mediocridade.</p></div>
+    </article><article class="card" data-artist="the cranberries" data-title="dreams" data-year="1992">
+      <div class="card-top"><span class="number">19</span><span class="year">1992</span></div>
+      <h2>Dreams</h2>
+      <p class="artist">The Cranberries</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Everybody Else Is Doing It, So Why Can&#x27;t We?</dd></div>
+        <div><dt>Lançamento</dt><dd>1992</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Euforia e vulnerabilidade perante o nascimento de um amor que transforma a percepção do mundo.</p></div>
+    </article><article class="card" data-artist="r.e.m." data-title="man on the moon" data-year="1992">
+      <div class="card-top"><span class="number">20</span><span class="year">1992</span></div>
+      <h2>Man on the Moon</h2>
+      <p class="artist">R.E.M.</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Automatic for the People</dd></div>
+        <div><dt>Lançamento</dt><dd>1992</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Mistura de cultura popular, teorias e figuras excêntricas para questionar a forma como construímos crenças e mitos.</p></div>
+    </article><article class="card" data-artist="the cure" data-title="friday i&#x27;m in love" data-year="1992">
+      <div class="card-top"><span class="number">21</span><span class="year">1992</span></div>
+      <h2>Friday I&#x27;m in Love</h2>
+      <p class="artist">The Cure</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Wish</dd></div>
+        <div><dt>Lançamento</dt><dd>1992</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Celebração simples e luminosa do amor, com a sexta-feira apresentada como uma ruptura feliz com a rotina.</p></div>
+    </article><article class="card" data-artist="red hot chili peppers" data-title="under the bridge" data-year="1991">
+      <div class="card-top"><span class="number">22</span><span class="year">1991</span></div>
+      <h2>Under the Bridge</h2>
+      <p class="artist">Red Hot Chili Peppers</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Blood Sugar Sex Magik</dd></div>
+        <div><dt>Lançamento</dt><dd>1991</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Solidão profunda e recuperação de uma fase de dependência, encontrando uma espécie de pertença na cidade.</p></div>
+    </article><article class="card" data-artist="r.e.m." data-title="losing my religion" data-year="1991">
+      <div class="card-top"><span class="number">23</span><span class="year">1991</span></div>
+      <h2>Losing My Religion</h2>
+      <p class="artist">R.E.M.</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Out of Time</dd></div>
+        <div><dt>Lançamento</dt><dd>1991</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Frustração emocional, obsessão e vulnerabilidade perante sentimentos que não são correspondidos ou controlados.</p></div>
+    </article><article class="card" data-artist="crowded house" data-title="weather with you" data-year="1991">
+      <div class="card-top"><span class="number">24</span><span class="year">1991</span></div>
+      <h2>Weather with You</h2>
+      <p class="artist">Crowded House</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Woodface</dd></div>
+        <div><dt>Lançamento</dt><dd>1991</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>A ideia de transportar o próprio estado emocional consigo, reconhecendo que não é possível fugir de si mesmo.</p></div>
+    </article><article class="card" data-artist="spin doctors" data-title="two princes" data-year="1991">
+      <div class="card-top"><span class="number">25</span><span class="year">1991</span></div>
+      <h2>Two Princes</h2>
+      <p class="artist">Spin Doctors</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Pocket Full of Kryptonite</dd></div>
+        <div><dt>Lançamento</dt><dd>1991</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Confronto entre duas formas de amor e a tentativa de convencer alguém de que o estatuto não determina o valor de uma relação.</p></div>
+    </article><article class="card" data-artist="tom petty" data-title="free fallin&#x27;" data-year="1989">
+      <div class="card-top"><span class="number">26</span><span class="year">1989</span></div>
+      <h2>Free Fallin&#x27;</h2>
+      <p class="artist">Tom Petty</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Full Moon Fever</dd></div>
+        <div><dt>Lançamento</dt><dd>1989</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Retrato melancólico da liberdade, da ruptura e da vida suburbana, visto através de uma relação que se desfez.</p></div>
+    </article><article class="card" data-artist="guns n&#x27; roses" data-title="sweet child o&#x27; mine" data-year="1987">
+      <div class="card-top"><span class="number">27</span><span class="year">1987</span></div>
+      <h2>Sweet Child o&#x27; Mine</h2>
+      <p class="artist">Guns N&#x27; Roses</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Appetite for Destruction</dd></div>
+        <div><dt>Lançamento</dt><dd>1987</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Declaração apaixonada de amor e fascínio por alguém cuja presença evoca segurança e felicidade.</p></div>
+    </article><article class="card" data-artist="guns n&#x27; roses" data-title="paradise city" data-year="1987">
+      <div class="card-top"><span class="number">28</span><span class="year">1987</span></div>
+      <h2>Paradise City</h2>
+      <p class="artist">Guns N&#x27; Roses</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Appetite for Destruction</dd></div>
+        <div><dt>Lançamento</dt><dd>1987</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Desejo de escapar ao ambiente urbano e voltar a um lugar idealizado de liberdade, diversão e pertença.</p></div>
+    </article><article class="card" data-artist="u2" data-title="with or without you" data-year="1987">
+      <div class="card-top"><span class="number">29</span><span class="year">1987</span></div>
+      <h2>With or Without You</h2>
+      <p class="artist">U2</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>The Joshua Tree</dd></div>
+        <div><dt>Lançamento</dt><dd>1987</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Conflito entre dependência amorosa e sofrimento, com a relação apresentada como algo simultaneamente necessário e doloroso.</p></div>
+    </article><article class="card" data-artist="u2" data-title="i still haven&#x27;t found what i&#x27;m looking for" data-year="1987">
+      <div class="card-top"><span class="number">30</span><span class="year">1987</span></div>
+      <h2>I Still Haven&#x27;t Found What I&#x27;m Looking For</h2>
+      <p class="artist">U2</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>The Joshua Tree</dd></div>
+        <div><dt>Lançamento</dt><dd>1987</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Busca espiritual e existencial ainda incompleta, apesar das experiências, crenças e conquistas já vividas.</p></div>
+    </article><article class="card" data-artist="u2" data-title="where the streets have no name" data-year="1987">
+      <div class="card-top"><span class="number">31</span><span class="year">1987</span></div>
+      <h2>Where the Streets Have No Name</h2>
+      <p class="artist">U2</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>The Joshua Tree</dd></div>
+        <div><dt>Lançamento</dt><dd>1987</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Desejo de transcender divisões sociais e geográficas, procurando liberdade e identidade para além das etiquetas.</p></div>
+    </article><article class="card" data-artist="the cure" data-title="just like heaven" data-year="1987">
+      <div class="card-top"><span class="number">32</span><span class="year">1987</span></div>
+      <h2>Just Like Heaven</h2>
+      <p class="artist">The Cure</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Kiss Me, Kiss Me, Kiss Me</dd></div>
+        <div><dt>Lançamento</dt><dd>1987</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Memória intensa de um momento romântico quase perfeito, misturando êxtase, desejo e receio de o perder.</p></div>
+    </article><article class="card" data-artist="r.e.m." data-title="the one i love" data-year="1987">
+      <div class="card-top"><span class="number">33</span><span class="year">1987</span></div>
+      <h2>The One I Love</h2>
+      <p class="artist">R.E.M.</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Document</dd></div>
+        <div><dt>Lançamento</dt><dd>1987</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Canção deliberadamente ambígua sobre relações, distância e a possibilidade de reduzir alguém amado a uma função ou memória.</p></div>
+    </article><article class="card" data-artist="bon jovi" data-title="livin&#x27; on a prayer" data-year="1986">
+      <div class="card-top"><span class="number">34</span><span class="year">1986</span></div>
+      <h2>Livin&#x27; on a Prayer</h2>
+      <p class="artist">Bon Jovi</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Slippery When Wet</dd></div>
+        <div><dt>Lançamento</dt><dd>1986</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Um casal com dificuldades económicas mantém-se unido pela esperança, perseverança e confiança num futuro melhor.</p></div>
+    </article><article class="card" data-artist="bon jovi" data-title="you give love a bad name" data-year="1986">
+      <div class="card-top"><span class="number">35</span><span class="year">1986</span></div>
+      <h2>You Give Love a Bad Name</h2>
+      <p class="artist">Bon Jovi</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Slippery When Wet</dd></div>
+        <div><dt>Lançamento</dt><dd>1986</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Acusação contra uma relação destrutiva em que o encanto inicial acaba por revelar manipulação e sofrimento.</p></div>
+    </article><article class="card" data-artist="europe" data-title="the final countdown" data-year="1986">
+      <div class="card-top"><span class="number">36</span><span class="year">1986</span></div>
+      <h2>The Final Countdown</h2>
+      <p class="artist">Europe</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>The Final Countdown</dd></div>
+        <div><dt>Lançamento</dt><dd>1986</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Partida para uma viagem extraordinária, apresentada com grandiosidade quase espacial e sensação de mudança inevitável.</p></div>
+    </article><article class="card" data-artist="the smiths" data-title="there is a light that never goes out" data-year="1986">
+      <div class="card-top"><span class="number">37</span><span class="year">1986</span></div>
+      <h2>There Is a Light That Never Goes Out</h2>
+      <p class="artist">The Smiths</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>The Queen Is Dead</dd></div>
+        <div><dt>Lançamento</dt><dd>1986</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Desejo de proximidade absoluta, até ao ponto de imaginar que um acidente poderia tornar-se uma forma extrema de união.</p></div>
+    </article><article class="card" data-artist="dire straits" data-title="walk of life" data-year="1985">
+      <div class="card-top"><span class="number">38</span><span class="year">1985</span></div>
+      <h2>Walk of Life</h2>
+      <p class="artist">Dire Straits</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Brothers in Arms</dd></div>
+        <div><dt>Lançamento</dt><dd>1985</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Homenagem ao poder da música e ao músico que leva alegria e energia às pessoas através da sua actuação.</p></div>
+    </article><article class="card" data-artist="simple minds" data-title="don&#x27;t you (forget about me)" data-year="1985">
+      <div class="card-top"><span class="number">39</span><span class="year">1985</span></div>
+      <h2>Don&#x27;t You (Forget About Me)</h2>
+      <p class="artist">Simple Minds</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Once Upon a Time</dd></div>
+        <div><dt>Lançamento</dt><dd>1985</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Pedido para não ser esquecido depois de uma relação ou experiência intensa, misturando orgulho e vulnerabilidade.</p></div>
+    </article><article class="card" data-artist="bryan adams" data-title="summer of &#x27;69" data-year="1984">
+      <div class="card-top"><span class="number">40</span><span class="year">1984</span></div>
+      <h2>Summer of &#x27;69</h2>
+      <p class="artist">Bryan Adams</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Reckless</dd></div>
+        <div><dt>Lançamento</dt><dd>1984</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Memória idealizada da juventude, da música e dos primeiros sonhos, vista com a nostalgia de quem envelheceu.</p></div>
+    </article><article class="card" data-artist="bryan adams" data-title="heaven" data-year="1984">
+      <div class="card-top"><span class="number">41</span><span class="year">1984</span></div>
+      <h2>Heaven</h2>
+      <p class="artist">Bryan Adams</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Reckless</dd></div>
+        <div><dt>Lançamento</dt><dd>1984</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Declaração romântica de amor absoluto, descrevendo a relação como uma experiência próxima do paraíso.</p></div>
+    </article><article class="card" data-artist="van halen" data-title="jump" data-year="1984">
+      <div class="card-top"><span class="number">42</span><span class="year">1984</span></div>
+      <h2>Jump</h2>
+      <p class="artist">Van Halen</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>1984</dd></div>
+        <div><dt>Lançamento</dt><dd>1984</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Incentivo a superar o medo e a arriscar, apresentado através de uma atitude energética e desafiante.</p></div>
+    </article><article class="card" data-artist="the clash" data-title="should i stay or should i go" data-year="1982">
+      <div class="card-top"><span class="number">43</span><span class="year">1982</span></div>
+      <h2>Should I Stay or Should I Go</h2>
+      <p class="artist">The Clash</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Combat Rock</dd></div>
+        <div><dt>Lançamento</dt><dd>1982</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Indecisão perante uma relação instável, alternando entre permanecer e partir sem conseguir obter clareza.</p></div>
+    </article><article class="card" data-artist="toto" data-title="africa" data-year="1982">
+      <div class="card-top"><span class="number">44</span><span class="year">1982</span></div>
+      <h2>Africa</h2>
+      <p class="artist">Toto</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Toto IV</dd></div>
+        <div><dt>Lançamento</dt><dd>1982</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Visão romântica e imaginada de África, combinando fascínio pelo continente com desejo de aventura e ligação pessoal.</p></div>
+    </article><article class="card" data-artist="survivor" data-title="eye of the tiger" data-year="1982">
+      <div class="card-top"><span class="number">45</span><span class="year">1982</span></div>
+      <h2>Eye of the Tiger</h2>
+      <p class="artist">Survivor</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Eye of the Tiger</dd></div>
+        <div><dt>Lançamento</dt><dd>1982</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Determinação para resistir, competir e voltar a levantar-se depois de uma derrota ou adversidade.</p></div>
+    </article><article class="card" data-artist="journey" data-title="don&#x27;t stop believin&#x27;" data-year="1981">
+      <div class="card-top"><span class="number">46</span><span class="year">1981</span></div>
+      <h2>Don&#x27;t Stop Believin&#x27;</h2>
+      <p class="artist">Journey</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Escape</dd></div>
+        <div><dt>Lançamento</dt><dd>1981</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Esperança persistente de que uma vida melhor é possível, apesar da incerteza e das dificuldades.</p></div>
+    </article><article class="card" data-artist="journey" data-title="open arms" data-year="1981">
+      <div class="card-top"><span class="number">47</span><span class="year">1981</span></div>
+      <h2>Open Arms</h2>
+      <p class="artist">Journey</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Escape</dd></div>
+        <div><dt>Lançamento</dt><dd>1981</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Reencontro amoroso marcado por vulnerabilidade, perdão e vontade de receber novamente a pessoa amada.</p></div>
+    </article><article class="card" data-artist="joan jett &amp; the blackhearts" data-title="i love rock &#x27;n roll" data-year="1981">
+      <div class="card-top"><span class="number">48</span><span class="year">1981</span></div>
+      <h2>I Love Rock &#x27;n Roll</h2>
+      <p class="artist">Joan Jett &amp; the Blackhearts</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>I Love Rock &#x27;n Roll</dd></div>
+        <div><dt>Lançamento</dt><dd>1981</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Paixão espontânea pela música rock e pela energia de uma noite de diversão e sedução.</p></div>
+    </article><article class="card" data-artist="reo speedwagon" data-title="keep on loving you" data-year="1980">
+      <div class="card-top"><span class="number">49</span><span class="year">1980</span></div>
+      <h2>Keep On Loving You</h2>
+      <p class="artist">REO Speedwagon</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Hi Infidelity</dd></div>
+        <div><dt>Lançamento</dt><dd>1980</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Compromisso amoroso apesar de mágoas e dificuldades, insistindo que o sentimento permanece.</p></div>
+    </article><article class="card" data-artist="pink floyd" data-title="comfortably numb" data-year="1979">
+      <div class="card-top"><span class="number">50</span><span class="year">1979</span></div>
+      <h2>Comfortably Numb</h2>
+      <p class="artist">Pink Floyd</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>The Wall</dd></div>
+        <div><dt>Lançamento</dt><dd>1979</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Alienação emocional e física, com uma pessoa anestesiada perante a realidade e incapaz de sentir plenamente.</p></div>
+    </article><article class="card" data-artist="the police" data-title="message in a bottle" data-year="1979">
+      <div class="card-top"><span class="number">51</span><span class="year">1979</span></div>
+      <h2>Message in a Bottle</h2>
+      <p class="artist">The Police</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Reggatta de Blanc</dd></div>
+        <div><dt>Lançamento</dt><dd>1979</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Solidão extrema e procura de contacto humano, representada pela tentativa de enviar uma mensagem para o mundo.</p></div>
+    </article><article class="card" data-artist="electric light orchestra (elo)" data-title="mr. blue sky" data-year="1978">
+      <div class="card-top"><span class="number">52</span><span class="year">1978</span></div>
+      <h2>Mr. Blue Sky</h2>
+      <p class="artist">Electric Light Orchestra (ELO)</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Out of the Blue</dd></div>
+        <div><dt>Lançamento</dt><dd>1978</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Celebração da chegada de um dia luminoso depois de um período cinzento, com optimismo e alegria renovados.</p></div>
+    </article><article class="card" data-artist="dire straits" data-title="sultans of swing" data-year="1978">
+      <div class="card-top"><span class="number">53</span><span class="year">1978</span></div>
+      <h2>Sultans of Swing</h2>
+      <p class="artist">Dire Straits</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Dire Straits</dd></div>
+        <div><dt>Lançamento</dt><dd>1978</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Retrato de músicos pouco glamorosos que tocam por paixão, destacando a autenticidade da música ao vivo.</p></div>
+    </article><article class="card" data-artist="the police" data-title="roxanne" data-year="1978">
+      <div class="card-top"><span class="number">54</span><span class="year">1978</span></div>
+      <h2>Roxanne</h2>
+      <p class="artist">The Police</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Outlandos d&#x27;Amour</dd></div>
+        <div><dt>Lançamento</dt><dd>1978</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Tentativa de convencer uma prostituta a abandonar essa vida e a escolher uma relação baseada no afecto.</p></div>
+    </article><article class="card" data-artist="toto" data-title="hold the line" data-year="1978">
+      <div class="card-top"><span class="number">55</span><span class="year">1978</span></div>
+      <h2>Hold the Line</h2>
+      <p class="artist">Toto</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Toto</dd></div>
+        <div><dt>Lançamento</dt><dd>1978</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Afirmação de que o amor não desaparece simplesmente porque a relação atravessa dificuldades ou incerteza.</p></div>
+    </article><article class="card" data-artist="queen" data-title="we will rock you" data-year="1977">
+      <div class="card-top"><span class="number">56</span><span class="year">1977</span></div>
+      <h2>We Will Rock You</h2>
+      <p class="artist">Queen</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>News of the World</dd></div>
+        <div><dt>Lançamento</dt><dd>1977</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Hino colectivo de confiança, desafio e energia, construído para envolver o público e criar um sentimento de união.</p></div>
+    </article><article class="card" data-artist="queen" data-title="don&#x27;t stop me now" data-year="1978">
+      <div class="card-top"><span class="number">57</span><span class="year">1978</span></div>
+      <h2>Don&#x27;t Stop Me Now</h2>
+      <p class="artist">Queen</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Jazz</dd></div>
+        <div><dt>Lançamento</dt><dd>1978</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Explosão de euforia e liberdade, celebrando o prazer de viver sem querer travar o momento.</p></div>
+    </article><article class="card" data-artist="fleetwood mac" data-title="go your own way" data-year="1977">
+      <div class="card-top"><span class="number">58</span><span class="year">1977</span></div>
+      <h2>Go Your Own Way</h2>
+      <p class="artist">Fleetwood Mac</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Rumours</dd></div>
+        <div><dt>Lançamento</dt><dd>1977</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Dor e ressentimento perante uma separação, reconhecendo que cada pessoa terá de seguir o seu próprio caminho.</p></div>
+    </article><article class="card" data-artist="fleetwood mac" data-title="dreams" data-year="1977">
+      <div class="card-top"><span class="number">59</span><span class="year">1977</span></div>
+      <h2>Dreams</h2>
+      <p class="artist">Fleetwood Mac</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Rumours</dd></div>
+        <div><dt>Lançamento</dt><dd>1977</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Reflexão sobre uma relação condenada a terminar e sobre como os sentimentos e as consequências podem persistir.</p></div>
+    </article><article class="card" data-artist="david bowie" data-title="heroes" data-year="1977">
+      <div class="card-top"><span class="number">60</span><span class="year">1977</span></div>
+      <h2>Heroes</h2>
+      <p class="artist">David Bowie</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>&quot;Heroes&quot;</dd></div>
+        <div><dt>Lançamento</dt><dd>1977</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Um momento de amor e resistência contra circunstâncias adversas, em que duas pessoas procuram sentir-se livres, ainda que temporariamente.</p></div>
+    </article><article class="card" data-artist="kansas" data-title="dust in the wind" data-year="1977">
+      <div class="card-top"><span class="number">61</span><span class="year">1977</span></div>
+      <h2>Dust in the Wind</h2>
+      <p class="artist">Kansas</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Point of Know Return</dd></div>
+        <div><dt>Lançamento</dt><dd>1977</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Meditação sobre a transitoriedade da vida, a fragilidade das conquistas e a inevitabilidade da morte.</p></div>
+    </article><article class="card" data-artist="cheap trick" data-title="i want you to want me" data-year="1977">
+      <div class="card-top"><span class="number">62</span><span class="year">1977</span></div>
+      <h2>I Want You to Want Me</h2>
+      <p class="artist">Cheap Trick</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>In Color</dd></div>
+        <div><dt>Lançamento</dt><dd>1977</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Desejo directo de ser amado e desejado, com insegurança perante a falta de reciprocidade.</p></div>
+    </article><article class="card" data-artist="eric clapton" data-title="wonderful tonight" data-year="1977">
+      <div class="card-top"><span class="number">63</span><span class="year">1977</span></div>
+      <h2>Wonderful Tonight</h2>
+      <p class="artist">Eric Clapton</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Slowhand</dd></div>
+        <div><dt>Lançamento</dt><dd>1977</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Retrato terno de uma noite romântica, valorizando a beleza e o encanto da pessoa amada.</p></div>
+    </article><article class="card" data-artist="queen" data-title="somebody to love" data-year="1976">
+      <div class="card-top"><span class="number">64</span><span class="year">1976</span></div>
+      <h2>Somebody to Love</h2>
+      <p class="artist">Queen</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>A Day at the Races</dd></div>
+        <div><dt>Lançamento</dt><dd>1976</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Procura desesperada por amor e sentido, expressando solidão e necessidade de ligação humana.</p></div>
+    </article><article class="card" data-artist="boston" data-title="more than a feeling" data-year="1976">
+      <div class="card-top"><span class="number">65</span><span class="year">1976</span></div>
+      <h2>More Than a Feeling</h2>
+      <p class="artist">Boston</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Boston</dd></div>
+        <div><dt>Lançamento</dt><dd>1976</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Uma memória musical desperta sentimentos antigos e mostra como certas emoções permanecem ligadas ao passado.</p></div>
+    </article><article class="card" data-artist="kansas" data-title="carry on wayward son" data-year="1976">
+      <div class="card-top"><span class="number">66</span><span class="year">1976</span></div>
+      <h2>Carry On Wayward Son</h2>
+      <p class="artist">Kansas</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Leftoverture</dd></div>
+        <div><dt>Lançamento</dt><dd>1976</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Reflexão sobre cansaço, ambição e procura espiritual, com incentivo a continuar apesar das dúvidas.</p></div>
+    </article><article class="card" data-artist="queen" data-title="bohemian rhapsody" data-year="1975">
+      <div class="card-top"><span class="number">67</span><span class="year">1975</span></div>
+      <h2>Bohemian Rhapsody</h2>
+      <p class="artist">Queen</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>A Night at the Opera</dd></div>
+        <div><dt>Lançamento</dt><dd>1975</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Narrativa dramática e surreal sobre culpa, julgamento, medo e aceitação, construída como uma pequena peça musical.</p></div>
+    </article><article class="card" data-artist="pink floyd" data-title="wish you were here" data-year="1975">
+      <div class="card-top"><span class="number">68</span><span class="year">1975</span></div>
+      <h2>Wish You Were Here</h2>
+      <p class="artist">Pink Floyd</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Wish You Were Here</dd></div>
+        <div><dt>Lançamento</dt><dd>1975</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Saudade e alienação perante a ausência de alguém, juntamente com crítica à perda de autenticidade na indústria musical.</p></div>
+    </article><article class="card" data-artist="fleetwood mac" data-title="landslide" data-year="1975">
+      <div class="card-top"><span class="number">69</span><span class="year">1975</span></div>
+      <h2>Landslide</h2>
+      <p class="artist">Fleetwood Mac</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Fleetwood Mac</dd></div>
+        <div><dt>Lançamento</dt><dd>1975</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Reflexão íntima sobre envelhecimento, mudança e medo perante decisões importantes na vida.</p></div>
+    </article><article class="card" data-artist="bruce springsteen" data-title="born to run" data-year="1975">
+      <div class="card-top"><span class="number">70</span><span class="year">1975</span></div>
+      <h2>Born to Run</h2>
+      <p class="artist">Bruce Springsteen</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Born to Run</dd></div>
+        <div><dt>Lançamento</dt><dd>1975</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Desejo de escapar à estagnação e procurar liberdade, aventura e uma vida mais intensa longe do lugar de origem.</p></div>
+    </article><article class="card" data-artist="bad company" data-title="feel like makin&#x27; love" data-year="1975">
+      <div class="card-top"><span class="number">71</span><span class="year">1975</span></div>
+      <h2>Feel Like Makin&#x27; Love</h2>
+      <p class="artist">Bad Company</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Straight Shooter</dd></div>
+        <div><dt>Lançamento</dt><dd>1975</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Desejo romântico e físico de proximidade, expresso de forma directa e descontraída.</p></div>
+    </article><article class="card" data-artist="lynyrd skynyrd" data-title="sweet home alabama" data-year="1974">
+      <div class="card-top"><span class="number">72</span><span class="year">1974</span></div>
+      <h2>Sweet Home Alabama</h2>
+      <p class="artist">Lynyrd Skynyrd</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Second Helping</dd></div>
+        <div><dt>Lançamento</dt><dd>1974</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Celebração orgulhosa do Alabama, ao mesmo tempo que responde criticamente a referências negativas feitas sobre o Sul dos Estados Unidos.</p></div>
+    </article><article class="card" data-artist="aerosmith" data-title="dream on" data-year="1973">
+      <div class="card-top"><span class="number">73</span><span class="year">1973</span></div>
+      <h2>Dream On</h2>
+      <p class="artist">Aerosmith</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Aerosmith</dd></div>
+        <div><dt>Lançamento</dt><dd>1973</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Reflexão sobre envelhecimento e sonhos, incentivando a continuar a sonhar apesar das limitações da vida.</p></div>
+    </article><article class="card" data-artist="eagles" data-title="desperado" data-year="1973">
+      <div class="card-top"><span class="number">74</span><span class="year">1973</span></div>
+      <h2>Desperado</h2>
+      <p class="artist">Eagles</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Desperado</dd></div>
+        <div><dt>Lançamento</dt><dd>1973</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Apelo a uma pessoa emocionalmente fechada para abandonar a solidão e permitir-se amar antes que seja tarde.</p></div>
+    </article><article class="card" data-artist="deep purple" data-title="smoke on the water" data-year="1972">
+      <div class="card-top"><span class="number">75</span><span class="year">1972</span></div>
+      <h2>Smoke on the Water</h2>
+      <p class="artist">Deep Purple</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Machine Head</dd></div>
+        <div><dt>Lançamento</dt><dd>1972</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Relato de um incêndio num concerto e das circunstâncias caóticas que rodearam a gravação de um álbum.</p></div>
+    </article><article class="card" data-artist="eagles" data-title="take it easy" data-year="1972">
+      <div class="card-top"><span class="number">76</span><span class="year">1972</span></div>
+      <h2>Take It Easy</h2>
+      <p class="artist">Eagles</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Eagles</dd></div>
+        <div><dt>Lançamento</dt><dd>1972</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Conselho para não carregar o peso do mundo às costas, procurando equilíbrio entre relações, desejo e liberdade.</p></div>
+    </article><article class="card" data-artist="led zeppelin" data-title="going to california" data-year="1971">
+      <div class="card-top"><span class="number">77</span><span class="year">1971</span></div>
+      <h2>Going to California</h2>
+      <p class="artist">Led Zeppelin</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Led Zeppelin IV</dd></div>
+        <div><dt>Lançamento</dt><dd>1971</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Busca de um novo começo e de uma pessoa especial, misturando desilusão, natureza e esperança.</p></div>
+    </article><article class="card" data-artist="david bowie" data-title="life on mars?" data-year="1971">
+      <div class="card-top"><span class="number">78</span><span class="year">1971</span></div>
+      <h2>Life on Mars?</h2>
+      <p class="artist">David Bowie</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Hunky Dory</dd></div>
+        <div><dt>Lançamento</dt><dd>1971</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Fantasia surreal sobre uma jovem insatisfeita com a realidade, usando o cinema e a televisão como fuga.</p></div>
+    </article><article class="card" data-artist="creedence clearwater revival" data-title="have you ever seen the rain?" data-year="1970">
+      <div class="card-top"><span class="number">79</span><span class="year">1970</span></div>
+      <h2>Have You Ever Seen the Rain?</h2>
+      <p class="artist">Creedence Clearwater Revival</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Pendulum</dd></div>
+        <div><dt>Lançamento</dt><dd>1970</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Imagem poética de crise e mudança, perguntando como pode haver tristeza mesmo quando as condições parecem favoráveis.</p></div>
+    </article><article class="card" data-artist="the beatles" data-title="let it be" data-year="1970">
+      <div class="card-top"><span class="number">80</span><span class="year">1970</span></div>
+      <h2>Let It Be</h2>
+      <p class="artist">The Beatles</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Let It Be</dd></div>
+        <div><dt>Lançamento</dt><dd>1970</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Mensagem de aceitação e serenidade perante problemas que não podem ser controlados, procurando confiança em tempos difíceis.</p></div>
+    </article><article class="card" data-artist="simon &amp; garfunkel" data-title="bridge over troubled water" data-year="1970">
+      <div class="card-top"><span class="number">81</span><span class="year">1970</span></div>
+      <h2>Bridge Over Troubled Water</h2>
+      <p class="artist">Simon &amp; Garfunkel</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Bridge over Troubled Water</dd></div>
+        <div><dt>Lançamento</dt><dd>1970</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Promessa de apoio incondicional a alguém que atravessa sofrimento ou dificuldades.</p></div>
+    </article><article class="card" data-artist="the beatles" data-title="here comes the sun" data-year="1969">
+      <div class="card-top"><span class="number">82</span><span class="year">1969</span></div>
+      <h2>Here Comes the Sun</h2>
+      <p class="artist">The Beatles</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Abbey Road</dd></div>
+        <div><dt>Lançamento</dt><dd>1969</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Celebração da esperança e do alívio depois de um período sombrio, simbolizados pela chegada do sol.</p></div>
+    </article><article class="card" data-artist="led zeppelin" data-title="ramble on" data-year="1969">
+      <div class="card-top"><span class="number">83</span><span class="year">1969</span></div>
+      <h2>Ramble On</h2>
+      <p class="artist">Led Zeppelin</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Led Zeppelin II</dd></div>
+        <div><dt>Lançamento</dt><dd>1969</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Viagem e inquietação de alguém que procura liberdade, misturando romance e imagens inspiradas na fantasia.</p></div>
+    </article><article class="card" data-artist="creedence clearwater revival" data-title="bad moon rising" data-year="1969">
+      <div class="card-top"><span class="number">84</span><span class="year">1969</span></div>
+      <h2>Bad Moon Rising</h2>
+      <p class="artist">Creedence Clearwater Revival</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Green River</dd></div>
+        <div><dt>Lançamento</dt><dd>1969</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Pressentimento de catástrofe e perigo iminente, usando imagens apocalípticas para criar uma atmosfera de ameaça.</p></div>
+    </article><article class="card" data-artist="creedence clearwater revival" data-title="proud mary" data-year="1969">
+      <div class="card-top"><span class="number">85</span><span class="year">1969</span></div>
+      <h2>Proud Mary</h2>
+      <p class="artist">Creedence Clearwater Revival</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Bayou Country</dd></div>
+        <div><dt>Lançamento</dt><dd>1969</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Desejo de abandonar uma vida desgastante e seguir viagem, procurando simplicidade e liberdade.</p></div>
+    </article><article class="card" data-artist="the who" data-title="pinball wizard" data-year="1969">
+      <div class="card-top"><span class="number">86</span><span class="year">1969</span></div>
+      <h2>Pinball Wizard</h2>
+      <p class="artist">The Who</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Tommy</dd></div>
+        <div><dt>Lançamento</dt><dd>1969</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Retrato de um jovem prodígio do pinball, usado como parte da narrativa da ópera rock Tommy.</p></div>
+    </article><article class="card" data-artist="david bowie" data-title="space oddity" data-year="1969">
+      <div class="card-top"><span class="number">87</span><span class="year">1969</span></div>
+      <h2>Space Oddity</h2>
+      <p class="artist">David Bowie</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>David Bowie / Space Oddity</dd></div>
+        <div><dt>Lançamento</dt><dd>1969</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>História ficcional de um astronauta isolado no espaço, explorando alienação, distância e ruptura com a Terra.</p></div>
+    </article><article class="card" data-artist="cream" data-title="sunshine of your love" data-year="1967">
+      <div class="card-top"><span class="number">88</span><span class="year">1967</span></div>
+      <h2>Sunshine of Your Love</h2>
+      <p class="artist">Cream</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Disraeli Gears</dd></div>
+        <div><dt>Lançamento</dt><dd>1967</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Canção de desejo e expectativa pelo reencontro com a pessoa amada, com uma atmosfera psicadélica intensa.</p></div>
+    </article><article class="card" data-artist="the jimi hendrix experience" data-title="the wind cries mary" data-year="1967">
+      <div class="card-top"><span class="number">89</span><span class="year">1967</span></div>
+      <h2>The Wind Cries Mary</h2>
+      <p class="artist">The Jimi Hendrix Experience</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Are You Experienced</dd></div>
+        <div><dt>Lançamento</dt><dd>1967</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Após uma discussão, a canção transforma a separação e a tristeza numa reflexão poética sobre amor e perda.</p></div>
+    </article><article class="card" data-artist="the kinks" data-title="waterloo sunset" data-year="1967">
+      <div class="card-top"><span class="number">90</span><span class="year">1967</span></div>
+      <h2>Waterloo Sunset</h2>
+      <p class="artist">The Kinks</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Something Else by The Kinks</dd></div>
+        <div><dt>Lançamento</dt><dd>1967</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Observação tranquila da vida urbana e de duas pessoas vistas à distância, encontrando beleza na rotina quotidiana.</p></div>
+    </article><article class="card" data-artist="the beach boys" data-title="good vibrations" data-year="1966">
+      <div class="card-top"><span class="number">91</span><span class="year">1966</span></div>
+      <h2>Good Vibrations</h2>
+      <p class="artist">The Beach Boys</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Smiley Smile</dd></div>
+        <div><dt>Lançamento</dt><dd>1966</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Atracção e euforia provocadas pela presença de alguém, transmitidas através de uma experiência sensorial e positiva.</p></div>
+    </article><article class="card" data-artist="the beach boys" data-title="god only knows" data-year="1966">
+      <div class="card-top"><span class="number">92</span><span class="year">1966</span></div>
+      <h2>God Only Knows</h2>
+      <p class="artist">The Beach Boys</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Pet Sounds</dd></div>
+        <div><dt>Lançamento</dt><dd>1966</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Declaração de amor profunda e vulnerável, reconhecendo a dimensão central que a pessoa amada ocupa na vida.</p></div>
+    </article><article class="card" data-artist="the monkees" data-title="i&#x27;m a believer" data-year="1966">
+      <div class="card-top"><span class="number">93</span><span class="year">1966</span></div>
+      <h2>I&#x27;m a Believer</h2>
+      <p class="artist">The Monkees</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>More of the Monkees</dd></div>
+        <div><dt>Lançamento</dt><dd>1966</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Mudança de atitude perante o amor, passando do cepticismo para a convicção depois de encontrar alguém especial.</p></div>
+    </article><article class="card" data-artist="the rolling stones" data-title="(i can&#x27;t get no) satisfaction" data-year="1965">
+      <div class="card-top"><span class="number">94</span><span class="year">1965</span></div>
+      <h2>(I Can&#x27;t Get No) Satisfaction</h2>
+      <p class="artist">The Rolling Stones</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Out of Our Heads</dd></div>
+        <div><dt>Lançamento</dt><dd>1965</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Frustração perante a publicidade, o consumo, o trabalho e a insatisfação constante da vida moderna.</p></div>
+    </article><article class="card" data-artist="the byrds" data-title="turn! turn! turn!" data-year="1965">
+      <div class="card-top"><span class="number">95</span><span class="year">1965</span></div>
+      <h2>Turn! Turn! Turn!</h2>
+      <p class="artist">The Byrds</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Turn! Turn! Turn!</dd></div>
+        <div><dt>Lançamento</dt><dd>1965</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Reflexão sobre os diferentes momentos da vida e sobre a necessidade de aceitar que cada coisa tem o seu tempo.</p></div>
+    </article><article class="card" data-artist="the kinks" data-title="you really got me" data-year="1964">
+      <div class="card-top"><span class="number">96</span><span class="year">1964</span></div>
+      <h2>You Really Got Me</h2>
+      <p class="artist">The Kinks</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Kinks</dd></div>
+        <div><dt>Lançamento</dt><dd>1964</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Desejo intenso e imediato provocado por alguém que exerce uma forte atracção sobre o narrador.</p></div>
+    </article><article class="card" data-artist="the animals" data-title="the house of the rising sun" data-year="1964">
+      <div class="card-top"><span class="number">97</span><span class="year">1964</span></div>
+      <h2>The House of the Rising Sun</h2>
+      <p class="artist">The Animals</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>The Animals</dd></div>
+        <div><dt>Lançamento</dt><dd>1964</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Relato sombrio de uma vida arruinada por vícios e circunstâncias, apresentado como advertência para não seguir o mesmo caminho.</p></div>
+    </article><article class="card" data-artist="the beatles" data-title="twist and shout" data-year="1963">
+      <div class="card-top"><span class="number">98</span><span class="year">1963</span></div>
+      <h2>Twist and Shout</h2>
+      <p class="artist">The Beatles</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Please Please Me</dd></div>
+        <div><dt>Lançamento</dt><dd>1963</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Convite exuberante para dançar e libertar a energia através da música, com forte componente de entusiasmo e desejo.</p></div>
+    </article><article class="card" data-artist="bob dylan" data-title="blowin&#x27; in the wind" data-year="1963">
+      <div class="card-top"><span class="number">99</span><span class="year">1963</span></div>
+      <h2>Blowin&#x27; in the Wind</h2>
+      <p class="artist">Bob Dylan</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>The Freewheelin&#x27; Bob Dylan</dd></div>
+        <div><dt>Lançamento</dt><dd>1963</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Série de perguntas sobre liberdade, guerra, injustiça e humanidade, deixando as respostas abertas à consciência de quem ouve.</p></div>
+    </article><article class="card" data-artist="elvis presley" data-title="jailhouse rock" data-year="1957">
+      <div class="card-top"><span class="number">100</span><span class="year">1957</span></div>
+      <h2>Jailhouse Rock</h2>
+      <p class="artist">Elvis Presley</p>
+      <dl>
+        <div><dt>Álbum</dt><dd>Jailhouse Rock</dd></div>
+        <div><dt>Lançamento</dt><dd>1957</dd></div>
+      </dl>
+      <div class="message"><span>Mensagem</span><p>Festa dentro de uma prisão, usando o rock and roll como símbolo de energia, diversão e liberdade.</p></div>
+    </article>
+  </section>
+  <div id="empty" class="empty">Não foram encontradas músicas com esses critérios.</div>
+</main>
+<footer>
+  Os resumos são sínteses interpretativas da mensagem central das canções.
+</footer>
+<script>
+const cards=[...document.querySelectorAll('.card')];
+const search=document.getElementById('search'), year=document.getElementById('year'), count=document.getElementById('count'), empty=document.getElementById('empty');
+function filter(){
+ const q=search.value.trim().toLowerCase(), y=year.value;
+ let n=0;
+ cards.forEach(c=>{
+   const text=(c.dataset.artist+' '+c.dataset.title);
+   const yr=Number(c.dataset.year);
+   const okText=!q||text.includes(q);
+   const okYear=y==='all'||(yr>=Number(y)&&yr<=Number(y)+9);
+   const show=okText&&okYear;
+   c.style.display=show?'':'none'; if(show)n++;
+ });
+ count.textContent=n+(n===1?' música':' músicas');
+ empty.style.display=n?'none':'block';
+}
+search.addEventListener('input',filter); year.addEventListener('change',filter);
+</script>
+</body>
+</html>
