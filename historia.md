@@ -1,5 +1,11 @@
 # História da Música Ocidental
 
+---
+
+Pensa na história da música como a evolução dos jogos de computador. Começaram com gráficos simples a preto e branco, ganharam cores, 3D em alta definição e hoje são hiper-realistas.
+
+A evolução da música no ocidente foi semelhante. Abaixo, simplifico em sete eras.
+
 ### 1. Idade Média: O "Single Player" da Igreja (até ~1400)
 Nesta altura não havia gravadores nem Spotify; a única forma de ouvir música trabalhada era ir à igreja.
 
