@@ -57,4 +57,8 @@ Anos 80 e 90 (Hip-Hop): No Bronx (Nova Iorque), os DJs transformaram os gira-dis
 
 Hoje: Um estúdio inteiro cabe num portátil ou num telemóvel. Autotune, produção digital, pop, rock e orquestras inteiras cruzam-se no mesmo ecrã à distância de um clique.
 
+---
+
+<div align="Righ">Joaquim Capitão</div>
+
 
