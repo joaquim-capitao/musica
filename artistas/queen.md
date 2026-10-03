@@ -33,3 +33,4 @@ E é isto os Queen. Quatro tipos que, juntos, pareciam um erro de casting, mas q
 
 Joaquim Capitão 
 
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
