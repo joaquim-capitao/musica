@@ -38,6 +38,6 @@ E assim ficou a história das 4 Non Blondes. Duraram menos do que um pacote de b
 ---
 
 Joaquim Capitão
-<div align="Center">[<-- Página Anterior](https://joaquim-capitao.github.io/musica/)</div>
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/)
 
 
