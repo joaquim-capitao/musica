@@ -30,3 +30,6 @@ E nós olhamos para aquilo com uma mistura de ternura e alívio por não sermos 
 ---
 
 Joaquim Capitão 
+
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
+
