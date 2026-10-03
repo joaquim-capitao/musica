@@ -1,6 +1,5 @@
 # História da Música Ocidental
 
----
 
 Pensa na história da música como a evolução dos jogos de computador. Começaram com gráficos simples a preto e branco, ganharam cores, 3D em alta definição e hoje são hiper-realistas.
 
