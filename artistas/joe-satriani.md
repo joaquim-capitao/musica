@@ -20,4 +20,6 @@ E a verdade, que é o que mais me chateia nisto tudo, é que faz.
 
 Joaquim Capitão 
 
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
+
 
