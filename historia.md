@@ -59,6 +59,6 @@ Hoje: Um estúdio inteiro cabe num portátil ou num telemóvel. Autotune, produ�
 
 ---
 
-<div align="Righ">Joaquim Capitão</div>
+<div align="Right">Joaquim Capitão</div>
 
 
