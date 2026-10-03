@@ -19,3 +19,6 @@ Morreu em 2016, num elevador do seu próprio palácio, o que é de uma solidão 
 ---
 
 Joaquim Capitão 
+
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
+
