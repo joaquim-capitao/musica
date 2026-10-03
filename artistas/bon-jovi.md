@@ -20,7 +20,10 @@ Hoje, olhas para o Bon Jovi e percebes o mistério: eles não inventaram a roda,
 
 ---
 
-Joaquim Capitão
+<div align="Center">Joaquim Capitão</div>  
+
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
+
 
 
 
