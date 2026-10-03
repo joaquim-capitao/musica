@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Música</title>
+  <title>Artistas</title>
   
   <!-- Fonte Ubuntu do Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,38 +43,7 @@
       position: relative;
     }
 
-    /* Decoração da Guitarra idêntica à fita de película do Cinema */
-    .guitar-banner-corner {
-      position: fixed;
-      top: -10px;
-      right: 12px;
-      width: 500px;
-      height: 200px;
-      transform: rotate(-45deg);
-      transform-origin: center;
-      z-index: 999;
-      pointer-events: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      filter: drop-shadow(-8px 12px 18px rgba(0, 0, 0, 0.28));
-    }
 
-    .guitar-banner-corner img {
-      width: 50%;
-      height: auto;
-      object-fit: contain;
-      mix-blend-mode: multiply; /* Remove o fundo branco integrando no tom bege da página */
-    }
-
-    @media (max-width: 768px) {
-      .guitar-banner-corner {
-        width: 300px;
-        height: 300px;
-        top: -20px;
-        right: -30px;
-      }
-    }
 
     .container {
       max-width: 680px;
@@ -244,25 +213,22 @@
 </head>
 <body>
 
-  <!-- Guitarra Elétrica no Canto Superior Direito no mesmo estilo da Película -->
-  <div class="guitar-banner-corner" aria-hidden="true">
-    <img src="guitarra.png" alt="Guitarra Elétrica">
-  </div>
+
 
   <main class="container">
     
     <!-- Botão no Início -->
     <nav class="top-nav" aria-label="Navegação Superior">
-      <a href="https://joaquim-capitao.github.io/" class="nav-home-btn">
+      <a href="https://joaquim-capitao.github.io/musica/" class="nav-home-btn">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
         </svg>
-        <span>Página Inicial</span>
+        <span>Página Anterior</span>
       </a>
     </nav>
 
     <header>
-      <h1 id="musica">Música</h1>
+      <h1 id="musica">Artistas</h1>
     </header>
     
     <ul class="chronicles-list" id="chronicles-list">
@@ -281,8 +247,8 @@
     <nav class="pagination" id="pagination" aria-label="Navegação das crónicas"></nav>
 
     <footer>
-      <a href="https://joaquim-capitao.github.io/" class="footer-home-btn" title="Página Inicial">
-        <span>← Voltar à Página Inicial</span>
+      <a href="https://joaquim-capitao.github.io/musica/" class="footer-home-btn" title="Página Inicial">
+        <span>← Voltar à Página Anterior</span>
       </a>
     </footer>
 
