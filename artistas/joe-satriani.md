@@ -1,6 +1,6 @@
 # Joe Satriani 
 
-# Joe Satriani é aquele indivíduo que, a olhar para uma guitarra, não vê um instrumento de madeira com seis cordas. Vê uma desfeita pessoal que precisa de ser corrigida a trezentas notas por minuto. Há qualquer coisa de profundamente perturbador num homem que decide: «Eu não vou cantar. Eu não vou dizer palavras a ninguém. O mundo já tem palavras a mais.»
+Joe Satriani é aquele indivíduo que, a olhar para uma guitarra, não vê um instrumento de madeira com seis cordas. Vê uma desfeita pessoal que precisa de ser corrigida a trezentas notas por minuto. Há qualquer coisa de profundamente perturbador num homem que decide: «Eu não vou cantar. Eu não vou dizer palavras a ninguém. O mundo já tem palavras a mais.»
 
 Tudo começa em 1970. Morre o Jimi Hendrix, uma tragédia imensa, e o jovem Joe, que na altura jogava futebol americano, larga a bola no campo, vai para casa e anuncia à mãe: «Vou ser guitarrista.» Não houve hesitação, não houve «se calhar vou tirar Direito e tocar aos fins de semana». Não. Foi um corte radical com a decência e com o bom senso.
 
