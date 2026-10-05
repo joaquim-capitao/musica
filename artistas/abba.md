@@ -22,7 +22,7 @@ Genial! Um bocadinho assustador, mas genial.
 
 ---
 
-<div align="Center">Joaquim Capitão</div>  
+<div align="Right">Joaquim Capitão</div>  
 
 [<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
 
