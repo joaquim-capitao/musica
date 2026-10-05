@@ -20,7 +20,7 @@ Morreu em 2016, num elevador do seu próprio palácio, o que é uma grande injus
 
 ---
 
-Joaquim Capitão 
+<div align="Right">Joaquim Capitão</div>  
 
 [<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
 
