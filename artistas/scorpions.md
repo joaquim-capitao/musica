@@ -22,4 +22,6 @@ E nós temos de respeitar.
 
 ---
 
-Joaquim Capitão 
+<div align="Center">Joaquim Capitão</div>  
+
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
