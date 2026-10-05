@@ -20,7 +20,6 @@ No fim de contas, os Pink Floyd deixaram-nos discos perfeitos, um prisma que tod
 
 ---
 
-Joaquim Capitão 
-
+<div align="Center">Joaquim Capitão</div>  
 
 [<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
