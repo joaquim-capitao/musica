@@ -16,6 +16,8 @@ E funcionou. O que é uma violência estatística: um baterista baixinho, que j�
 
 Entram os anos 80 e o Phil descobre que a mulher o traiu. A maioria das pessoas divorcia-se e chora na banheira durante dois meses, mas o Phil senta-se e escreve *In the Air Tonight*. Pega num microfone e sussurra com um rancor tão límpido, tão gelado, que quase conseguimos cheirar o verniz da mobília a descascar. E a meio, do nada: dum-dum-dum-dum-dum-dum-tss. Acabou. Mudou a acústica das rádios mundiais durante trinta anos. Todas as pessoas que iam a conduzir um Opel Corsa de 1988 passaram a bater no volante ao minuto 3:41 da canção. É obrigatório. Não se pode evitar.
 
+![](https://townsquare.media/site/295/files/2015/07/GettyImages-52983051.jpg)
+
 A partir daí, Phil Collins não consegue parar de ter sucesso. Estava em todo o lado. Ligava-se a rádio, lá estava ele a dizer que já não se importava nada, no *reply at all*. Mudava-se de frequência, estava a pedir *one more night*. No Live Aid de 1985, um concerto de beneficência que mobilizou o planeta, o homem tocou em Londres de manhã, meteu-se num avião supersónico da Concorde e foi tocar à noite a Filadélfia. Duas atuações, dois continentes, no mesmo dia. Se isto não é um apelo desesperado de alguém que tem pânico de ficar sozinho em casa a pensar na vida, não sei o que é.
 
 Fez músicas para a Disney, ganhou Óscares a cantar sobre gorilas bebés e encheu estádios enquanto a calvície galopava triunfante.
