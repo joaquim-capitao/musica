@@ -4,6 +4,8 @@ Tudo começa no final dos anos 50, quando o John Lennon, um indivíduo com ar de
 
 Depois meteram o George Harrison, que tinha 14 anos e cara de quem ainda pedia autorização para beber gasosa, e mandaram embora um baterista chamado Pete Best porque, aparentemente, era demasiado bonito e não sabia bater nos tachos ao ritmo certo. Entrou o Ringo Starr. O Ringo é uma lição de vida para todos nós: um homem que parece ter sido sorteado numa rifa dos bombeiros, que olhou para o lado, viu três génios em combustão criativa e pensou *"eu não vou fazer perguntas, vou só dar com este pau na pele e ver onde isto vai parar"*.
 
+![](https://i.pinimg.com/originals/cc/2b/aa/cc2baa5673ea6d97460beff2b647f233.gif)
+
 Antes da glória, foram para Hamburgo. E Hamburgo não foi bonito. Foi tocar oito horas por noite em antros cheios de marinheiros bêbados, a anfetaminas e cerveja choca, a dormir atrás de biombos em cinemas onde o chão colava aos sapatos. Foi aí que eles deixaram de ser uns miúdos com borbulhas para se tornarem numa máquina oleada de pop.
 
 Depois voltam para Inglaterra, arranjam um fato que não cheira a fumo de cigarro barato, gravam *Love Me Do* e instala-se a histeria coletiva. A Beatlemania. De repente, o planeta colapsa. Milhares de adolescentes começam a gritar de uma forma tão estridente e descontrolada que os próprios Beatles deixam de ouvir os instrumentos. Eles estavam em estádios gigantescos a tocar às cegas, a fingir que sabiam em que acorde iam, enquanto cinquenta mil pessoas desmaiavam a expelir urina e lágrimas pelo relvado fora. É uma loucura tão insustentável que qualquer ser humano com dois dedos de testa pensaria: *"Isto é ótimo, vamos continuar a faturar"*. Eles pensaram: *"Isto é insuportável, não dou mais concertos."*
