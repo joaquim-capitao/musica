@@ -20,6 +20,8 @@ A resposta do Kurt a esse sucesso foi tentar destruir a própria carreira. Em 19
 
 Depois veio o *MTV Unplugged*, um concerto acústico onde o Kurt decorou o cenário com lírios brancos e velas pretas, como se fosse um velório antecipado. Sentou-se num banco, vestiu um casaco de malha verde-azeitona com botões trocados e cantou a *"Where Did You Sleep Last Night"*. No último suspiro da canção, ele arregala os olhos azuis, quase sem respirar, e larga uma nota rouca que parecia vir do fundo de uma sepultura.
 
+![](https://64.media.tumblr.com/cea38de7a50e4ad94b39e1f2fac9e470/4e902bac390da3fb-c0/s400x600/832f2c95a0a301928033d522f944810139a1b4bc.gif)
+
 O fim toda a gente sabe. Acabou cedo demais, em abril de 1994, com a crueza e o vazio que a fama deixa para trás quando as luzes se apagam.
 
 O Dave Grohl recompôs-se, fundou os Foo Fighters e tornou-se o homem mais simpático e bem-disposto da Via Láctea, a sorrir em festivais de verão como quem foi salvo de um naufrágio. O Krist tornou-se ativista político e passa despercebido.
