@@ -26,7 +26,7 @@ O Phil Collins ensinou-nos que não precisas de medir um metro e noventa nem de 
 
 ---
 
-<div align="Center">Joaquim Capitão</div>  
+<div align="Right">Joaquim Capitão</div>  
 
 [<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
 
