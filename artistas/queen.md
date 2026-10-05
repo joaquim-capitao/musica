@@ -4,7 +4,7 @@ Silêncio, por favor. Vamos falar sobre os Queen.
 
 ![](https://queennet.com.br/wp-content/uploads/2024/02/queen-cartao.jpg)
 
-A probabilidade de quatro tipos completamente aleatórios se juntarem em Londres, nos anos 70, e isso não acabar numa rixa de facas à porta de um pub, já é estatisticamente baixa. Mas juntarem-se e para formar uma das maiores bandas de sempre, roça o delírio.
+A probabilidade de quatro tipos completamente aleatórios se juntarem em Londres, nos anos 70, e isso não acabar numa rixa de facas à porta de um pub, já é estatisticamente baixa. Mas juntarem-se para formar uma das maiores bandas de sempre, roça o delírio.
 
 Reparem no elenco desta novela. De um lado, temos Brian May. Um homem que, se olharem bem, tem o cabelo de uma tia de Cascais nos anos 80 e que, em vez de comprar uma guitarra numa loja como qualquer pessoa normal, pensou: *"Olha, vou mas é pegar num pedaço de madeira e construir um instrumento". E construiu a famosa [_Red Special_](https://pt.wikipedia.org/wiki/Red_Special). E para piorar a sensação de inadequação de todos nós, o sujeito é astrofísico. Enquanto o comum dos mortais está a tentar perceber como é que se programa o micro-ondas, o Brian May está a estudar galáxias e a compor solos de guitarra ao mesmo tempo. 
 
