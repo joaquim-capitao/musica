@@ -32,7 +32,7 @@ E nós olhamos para aquilo com uma mistura de pena e alívio por não sermos nó
 
 ---
 
-Joaquim Capitão 
+<div align="Right">Joaquim Capitão</div>  
 
 [<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
 
