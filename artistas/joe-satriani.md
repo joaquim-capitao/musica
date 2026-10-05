@@ -18,7 +18,7 @@ E a verdade, que é o que mais me chateia nisto tudo, é que faz.
 
 ---
 
-Joaquim Capitão 
+<div align="Right">Joaquim Capitão</div>  
 
 [<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
 
