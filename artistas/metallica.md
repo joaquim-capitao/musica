@@ -3,6 +3,8 @@
 
 Hoje apeteceu-me falar-vos sobre os Metallica. Uma banda de pessoas que decidiram, em certa altura da década de 80, que o silêncio era uma afronta pessoal e que a melhor forma de expressar a angústia da existência era bater num prato de bateria com fúria.
 
+![](https://64.media.tumblr.com/a60a858ed52a05df6f178535e6dbcb74/tumblr_n4d8gpSURS1tx4gv5o1_400.gif)
+
 Tudo começou com um anúncio de jornal. É importante sublinhar isto: nos anos 80, as pessoas não iam ao Tinder procurar desilusões; punham anúncios no jornal para encontrar bateristas dinamarqueses. Lars Ulrich, que é um homem que parece ter sido desenhado à pressa, pôs um anúncio à procura de gente para tocar guitarra. Apareceu James Hetfield, um rapaz que na altura tinha a compleição física de um estendal de roupa.
 
 Olharam um para o outro e pensaram o que qualquer jovem normal pensa: *"Vamos fazer uma coisa tão rápida que as pessoas não tenham tempo de perceber que não sabemos bem o que estamos a fazer".*
