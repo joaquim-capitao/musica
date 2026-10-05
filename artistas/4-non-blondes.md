@@ -22,6 +22,8 @@ E a seguir, a pergunta que todos nós fazemos enquanto olhamos para uma folha de
 
 O mundo, que estava carente e não tinha redes sociais para descarregar a angústia, ouviu aquilo e pensou: *"É isto. Eu não sei o que é que se está a passar na minha vida, mas esta mulher de cartola com óculos de soldador sabe menos ainda, e está a dizê-lo a gritar."*
 
+![](https://i.makeagif.com/media/9-18-2017/COJqzU.gif)
+
 Foi uma loucura. Número um em todo o lado. Venderam milhões. As pessoas cantavam aquilo em casamentos, em funerais, no duche, no carro, no engate... Criou-se um fenómeno planetário em torno de uma mulher com um chapéu que parecia ter pertencido a um mágico falhado de circo ambulante.
 
 E o que é que acontece a seguir? O que acontece sempre que quatro pessoas normais de repente têm dinheiro suficiente para comprar um porta-aviões: odeiam-se. A Linda Perry olhou para o sucesso, olhou para os colegas de banda, olhou para a cartola e pensou: *"Isto é pop a mais para a minha dor de alma. Eu sou uma artista torturada, não posso andar a cantar isto."*
