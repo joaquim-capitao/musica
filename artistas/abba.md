@@ -4,6 +4,8 @@ Estamos na Suécia, no início dos anos 70. Um país onde estão menos catorze g
 
 De repente, juntam-se dois casais. Björn e Agnetha, Benny e Anni-Frid. Eles olham uns para os outros e pensam: *"E se nós nos vestíssemos de papel de prata, puséssemos botas de plataforma com purpurina e fossemos gritar para o Festival da Eurovisão sobre uma batalha onde morreram milhares de soldados franceses?"*
 
+![](https://stories.cnnbrasil.com.br/wp-content/uploads/sites/9/2021/09/giphy-2-2.gif)
+
 E foram. Em 1974, chegam ao palco em Brighton com Waterloo. A Europa, que na altura ainda estava a tentar recuperar da Segunda Guerra Mundial e de vários traumas fiscais, olhou para aquilo e pensou: *"Eu não sei o que é isto, mas se calhar preciso."* Ganham. Obviamente que ganham.
 
 A partir daqui dá-se o fenómeno verdadeiramente perigoso: a eficiência escandinava aplicada à música pop. O Björn e o Benny fechavam-se num barracão numa ilha qualquer e compunham canções com a precisão de quem está a montar uma estante. Não há uma aresta por lixar. É tudo construído para entrar no córtex cerebral das pessoas e ficar lá a viver para sempre. *Dancing Queen, Mamma Mia, Gimme! Gimme! Gimme!*. É uma fábrica de serotonina.
