@@ -12,6 +12,8 @@ Nos anos oitenta, o plano funcionou. Fizeram a única coisa que homens adultos d
 
 E depois veio o ano de 1989. O Bloco de Leste a ruir, a União Soviética a desmanchar-se como um bolo esquecido à chuva, o Muro de Berlim a vir abaixo às picaretadas. E o que é que a banda sonora da História mundial precisava? De diplomacia? De tratados de desarmamento nuclear? Não. Precisava de um senhor alemão baixinho com uma boina de couro a assobiar.
 
+![](https://i.makeagif.com/media/6-25-2015/2i-5sG.gif)
+
 Aquele assobio de Wind of Change é das coisas mais improváveis que a humanidade produziu. O Muro caiu, a Guerra Fria acabou, e o símbolo auditivo da liberdade global é um homem a mandar um silvo afinado.
 
 Hoje em dia, os Scorpions continuam no ativo. Estão há cerca de vinte anos a anunciar digressões de despedida, o que é um conceito fascinante. É como aquela tia idosa que se levanta da mesa a dizer «bem, eu vou andando» e ainda está à porta de saída duas horas depois a comentar as doenças das vizinhas. 
