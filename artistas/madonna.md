@@ -1,6 +1,6 @@
 # Madonna
 
-Madonna nasce no Michigan, no meio de uma família com irmãos suficientes para montar uma equipa de râguebi e com uma infância daquelas que dá logo direito a trauma de qualidade: perde a mãe muito cedo. E quando uma pessoa normal canaliza o luto a comer bolachas Maria à frente da televisão a chorar baixo, a Madonna pensou: *"Não. Eu vou mas é para Nova Iorque com trinta e cinco dólares no bolso para ver o que acontece."*
+Madonna nasce no Michigan, no meio de uma família com irmãos suficientes para montar uma equipa de râguebi e com uma infância daquelas que dá logo direito a grandes traumas: perde a mãe muito cedo. E enquanto uma pessoa normal canaliza o luto para comer bolachas Maria à frente da televisão, a Madonna pensou: *"Não. Eu vou mas é para Nova Iorque com trinta e cinco dólares no bolso para ver o que acontece."*
 
 ![](https://i.pinimg.com/originals/fe/75/45/fe7545b99a7c91e9c71a8b595be5943c.gif)
 
