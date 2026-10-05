@@ -17,8 +17,7 @@ Hoje, Bryan Adams é vegan, corre todas as manhãs, tem um aspeto irritantemente
 
 ---
 
-Joaquim Capitão 
-
+<div align="Right">Joaquim Capitão</div>  
 
 [<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
 
