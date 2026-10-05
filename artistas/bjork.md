@@ -1,6 +1,6 @@
 # Björk
 
-A mulher chama-se Björk Guðmundsdóttir, e parece que esse é um nome muito normal lá para aqueles lados.
+A senhora chama-se Björk Guðmundsdóttir, e parece que esse é um nome muito normal lá para aqueles lados.
 
 Nasceu em Reiquiavique, que é aquele sítio onde se passa metade do ano de noite e a outra metade de dia, com a luz a bater na cara sem deixar ninguém dormir. Uma pessoa comum apanha uma depressão ou aprende a fazer ponto de cruz. A Björk, aos onze anos, gravou um disco de flauta e versões dos Beatles cantadas em islandês. Aos onze anos a maior parte das crianças tenta perceber se cabe dentro do cesto da roupa suja, mas ela já andava a impor respeito a produtores de barba rija.
 
