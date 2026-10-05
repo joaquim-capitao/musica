@@ -24,8 +24,6 @@ Morreu em 2009. Ficou a música, ficaram os passos de dança, e ficou a certeza 
 
 ---
 
-<div align="Center">Joaquim Capitão</div>  
+<div align="Right">Joaquim Capitão</div>  
 
 [<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
-
-
