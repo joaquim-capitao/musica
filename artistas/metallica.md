@@ -33,7 +33,7 @@ E é isto.
 
 ---
 
-Joaquim Capitão 
+<div align="Center">Joaquim Capitão</div>  
 
 [<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
 
