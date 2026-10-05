@@ -1,4 +1,4 @@
-# Beatles
+# The Beatles
 
 Tudo começa no final dos anos 50, quando o John Lennon, um indivíduo com ar de quem vos roubava a merenda na escola e depois ainda vos convencia de que a sanduíche de queijo era uma ilusão, decide criar uma banda. Junta-se o Paul McCartney, o rapaz certinho que as vossas avós gostariam que fosse vosso primo, daquele género que sabe sempre o caminho para a repartição de finanças e toca instrumentos com uma facilidade irritante. 
 
