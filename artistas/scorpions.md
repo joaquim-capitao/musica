@@ -1,3 +1,5 @@
+# Scorpions 
+
 A Alemanha do pós-guerra deu-nos coisas muito respeitáveis. A aspirina e os manuais de instruções de eletrodomésticos que ninguém lê. E depois, lá pelo meio dos anos sessenta, um senhor chamado Rudolf Schenker olhou para a vida e pensou: «O que falta ao povo germânico é cabedal preto, permanentes no cabelo e pessoas a gritar sobre animais perigosos.»
 
 Nasciam os Scorpions.
