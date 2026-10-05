@@ -1,6 +1,8 @@
 # Björk
 
-A Björk nasce em Reiquiavique, que é aquele sítio onde se passa metade do ano de noite a olhar para o teto e a outra metade de dia com a luz a bater de chapa na cara sem deixar ninguém dormir. Uma pessoa comum apanha uma depressão ou aprende a fazer ponto de cruz. A Björk, aos onze anos, gravou um disco de flauta e versões dos Beatles cantadas em islandês. Aos onze anos a maior parte das crianças tenta perceber se cabe dentro do cesto da roupa suja. Ela já andava a impor respeito a produtores de barba rija.
+A mulher chama-se Björk Guðmundsdóttir, e parece que esse é um nome muito normal lá para aqueles lados.
+
+Nasceu em Reiquiavique, que é aquele sítio onde se passa metade do ano de noite e a outra metade de dia, com a luz a bater na cara sem deixar ninguém dormir. Uma pessoa comum apanha uma depressão ou aprende a fazer ponto de cruz. A Björk, aos onze anos, gravou um disco de flauta e versões dos Beatles cantadas em islandês. Aos onze anos a maior parte das crianças tenta perceber se cabe dentro do cesto da roupa suja, mas ela já andava a impor respeito a produtores de barba rija.
 
 ![](https://i.pinimg.com/originals/08/1c/9d/081c9d0215e7eaffa13c860357122aec.gif)
 
