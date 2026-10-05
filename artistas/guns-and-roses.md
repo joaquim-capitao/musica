@@ -16,7 +16,7 @@ Juntam-se o Duff McKagan, que nessa altura devia ter 80% do sangue substituído 
 
 ![](https://media.tenor.com/xb3kBeqe_nsAAAAM/gunsandroses-guns.gif)
 
-Mas ninguém tinha coragem de lhe dizer: *"Axl, se calhar o helicóptero a filmar o teu casamento falso com a Stephanie Seymour é um bocadinho demais, não?"*
+Mas ninguém tinha coragem de lhe dizer: *"Axl, se calhar o helicóptero a filmar o teu casamento falso com a Stephanie Seymour é um bocadinho demais, não?"*  
 ​
 Depois veio a pontualidade. O Axl Rose inventou um fuso horário próprio. Os concertos estavam marcados para as oito; ele aparecia às onze e meia. As pessoas esperavam, partiam estádios, levavam bastonadas da polícia e, no fim, ainda diziam: *"Foi incrível quando ele cantou 'November Rain'."* Isto é o ser humano no seu estado mais patético e fascinante.
 
