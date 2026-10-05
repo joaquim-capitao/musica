@@ -14,7 +14,7 @@ No baixo, John Deacon. O Deacon era o funcionário público da banda. Um homem q
 
 E no meio disto tudo... Freddie Mercury.
 
-Farrokh Bulsara, nascido em Zanzibar, dono de uma dentição que não cabia na boca dele, mas que ele se recusou a corrigir porque «dava ressonância à voz». O que é um argumento magnífico. Imagino o Freddie no dentista: "Não me toque nos dentes, doutor, que eu preciso deste espaço a mais para cantar a palavra Galileo".
+Farrokh Bulsara, nascido em Zanzibar, dono de uma dentição que não cabia na boca dele, mas que ele se recusou a corrigir porque "dava ressonância à voz". O que é um argumento magnífico. Imagino o Freddie no dentista: "Não me toque nos dentes, doutor, que eu preciso deste espaço a mais para cantar a palavra Galileo".
 
 ![](https://i.pinimg.com/originals/76/ed/2c/76ed2c263d7ce4f66512ffdc6a2079be.gif)
 
