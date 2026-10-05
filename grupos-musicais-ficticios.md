@@ -13,7 +13,7 @@ Videoclip:
 
 ---
 ### The Soggy Bottom Boys
-Grupo criado para o filme *O Brother, Where Art Thou? **.    
+Grupo criado para o filme *O Brother, Where Art Thou?*.    
 
 Videoclip:  
 [I Am a Man Of Constant Sorrow](https://m.youtube.com/watch?v=5fkWheDcI50&list=RD5fkWheDcI50&start_radio=1&pp=ygUpaSBhbSBhIG1hbiBvZiBjb25zdGFudCBzb3Jyb3cgbXVzaWMgdmlkZW-gBwE%3D)
