@@ -39,7 +39,7 @@ E assim ficou a história das **4 Non Blondes**. Duraram menos do que um pacote 
 
 ---
 
-<div align="Center">Joaquim Capitão</div>  
+<div align="Right">Joaquim Capitão</div>  
 
 [<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
 
