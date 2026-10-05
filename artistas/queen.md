@@ -1,6 +1,6 @@
 # Queen
 
-Vamos falar sobre os Queen. 
+Silêncio, por favor. Vamos falar sobre os Queen. 
 
 ![](https://queennet.com.br/wp-content/uploads/2024/02/queen-cartao.jpg)
 
