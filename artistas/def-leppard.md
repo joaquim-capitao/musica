@@ -4,6 +4,8 @@ Os Def Leppard são cinco rapazes de Sheffield, terra conhecida mundialmente pel
 
 Começaram a ter sucesso, muito sucesso. Gravaram um disco chamado Pyromania, venderam milhões de cópias a adolescentes que achavam que ter permanente no cabelo era uma decisão perfeitamente respeitável, e estavam prontos para conquistar o cosmos.
 
+![](https://images.thebrag.com/cdn-cgi/image/fit=crop,width=900,height=600/https://images-r2.thebrag.com/rs/uploads/2023/11/dl-web-5460841-2.jpg)
+
 E é aqui que entra o imprevisto, essa entidade que gosta de aparecer no momento em que as coisas estão a correr bem.
 
 Na véspera de Ano Novo de 1984, o baterista, Rick Allen, tem um acidente de viação brutal. Consequência: perde o braço esquerdo.
