@@ -6,8 +6,8 @@
 [Enya - Greatest Hits](https://www.youtube.com/watch?v=IVZYM7_4ank&list=PL8TAMERtpPxfvYNEaHUK1Dwu-4zhwwm_u&index=32)   
 [Joe Satriani – Surfing With The Alien](https://www.youtube.com/watch?v=sm0j33oxav4)   
 [Joe Satriani – The Extremist](https://www.youtube.com/watch?v=0Bg8oo7PZVY)   
-[Queen Greatest Hits II](https://www.youtube.com/watch?v=j440-D5JhjI)  
-[Queen Greatest Hits I](https://www.youtube.com/watch?v=_Uu12zY01ts)  
+[Queen - Greatest Hits II](https://www.youtube.com/watch?v=j440-D5JhjI)  
+[Queen - Greatest Hits I](https://www.youtube.com/watch?v=_Uu12zY01ts)  
 [Sade - Best of](https://www.youtube.com/watch?v=c_lgse6-JKo&list=PLRkE5-eyt9iVY7n9jJJtAJazzM-F6DASg)   
 [Sheryl Crow - Greatest Hits](https://www.youtube.com/watch?v=MZ988GHQJz0&list=PL8TAMERtpPxfvYNEaHUK1Dwu-4zhwwm_u&index=56)   
 
