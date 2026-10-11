@@ -30,4 +30,6 @@ O álbum em inglês acabou por sair a título póstumo. Vendeu milhões, bateu r
 
 ---
 
-Joaquim Capitão
+<div align="Right">Joaquim Capitão</div>  
+
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
