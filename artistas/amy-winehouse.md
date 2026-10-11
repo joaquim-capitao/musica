@@ -1,12 +1,12 @@
 # Amy Winehouse
 
-A humanidade tem uma relação muito perversa com as pessoas que sofrem em público. Em teoria, toda a gente tem muita pena; na prática, se o sofrimento vier acompanhado de um bom contrabaixo e de um penteado com meio metro de altura, compramos o disco e apontamos o dedo a rir enquanto a pessoa tropeça no passeio.
-
 Amy Winehouse foi, provavelmente, o caso mais descarado de demolição em direto a que o século XXI assistiu.
 
 Apareceu vinda do norte de Londres com uma voz que parecia ter passado quarenta anos a marinar em uísque nos anos sessenta, embora ela tivesse apenas vinte e poucos anos e o aspeto de quem se tinha mascarado à pressa de heroína da classe operária. Não cantava como as miúdas da pop que faziam ginástica e sorriam para a câmara; cantava como quem está a tentar explicar a um polícia por que razão partiu a montra de uma pastelaria às quatro da manhã. Com raiva, com uma técnica absurda e com uma sinceridade escandalosa.
 
 O disco chamava-se *Back to Black*. Foi um terramoto.
+
+![](https://www.midiorama.com/wp-content/uploads/2017/09/amy-winehouse-aniversario.png)
 
 Ela escreveu um tema cujo refrão era, textualmente: "Tentaram mandar-me para a reabilitação e eu disse não, não, não". E o mundo ocidental, num assomo de inteligência coletiva, pensou: "Que ritmo contagiante! Que refrão espetacular para pôr na festa de anos da minha prima!". Ninguém reparou que a rapariga não estava a fazer uma metáfora poética sobre a liberdade individual; estava a dizer com todas as letras: "Socorro, estou a autodestruir-me e vocês estão a bater palmas ao compasso".
 
