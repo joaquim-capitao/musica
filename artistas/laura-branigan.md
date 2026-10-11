@@ -28,5 +28,6 @@ Ficou a voz gravada em fitas magnéticas, a rodar eternamente nas rádios de fim
 
 ---
 
-Joaquim Capitão
+<div align="Right">Joaquim Capitão</div>  
 
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
