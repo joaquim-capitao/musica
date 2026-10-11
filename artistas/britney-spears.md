@@ -34,5 +34,7 @@ Pois não está bem, com certeza. Roubaram-lhe a juventude, trancaram-na numa ce
 
 ---
 
-Joaquim Capitão
+<div align="Right">Joaquim Capitão</div>  
+
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
 
