@@ -2,6 +2,8 @@
 
 Britney Spears não começou como uma pessoa normal. Começou naquele viveiro sinistro da Disney, onde crianças com dentes demasiado brancos são treinadas para sorrir, cantar e sapatear sem pestanejar, como pequenos robots programados.
 
+![](https://ca-times.brightspotcdn.com/dims4/default/64eda48/2147483647/strip/true/crop/3000x2006+0+0/resize/1200x802!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0d%2F3a%2F7f3f2f684d89bd3ed64d18af1fe7%2Flacabritneyspears0071.jpg)
+
 Depois, em 1998, meteram-lhe uma saia de colegial, duas tranças, e soltaram-na no mundo a cantar "...Baby One More Time".
 
 A resposta da civilização ocidental foi uma histeria imediata. De repente, tínhamos quarentões engravatados em programas de debate a discutir se o umbigo de uma adolescente era ou não uma ameaça à moral pública, enquanto a indústria da música contava notas de cem dólares e pensava: "Isto não é uma cantora, é um poço de petróleo com rabo de cavalo".
