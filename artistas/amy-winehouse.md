@@ -26,5 +26,6 @@ No dia a seguir, o mundo inteiro vestiu o luto dos hipócritas. As mesmas pessoa
 
 ---
 
-Joaquim Capitão
+<div align="Right">Joaquim Capitão</div>  
 
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
