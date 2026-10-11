@@ -30,5 +30,6 @@ Hoje em dia, os Def Leppard continuam a encher estádios. Estão todos na casa d
 
 ---
 
-Joaquim Capitão
+<div align="Right">Joaquim Capitão</div>  
 
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
