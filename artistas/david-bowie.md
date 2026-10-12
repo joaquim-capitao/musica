@@ -32,8 +32,11 @@ Lançou o álbum no dia do seu sexagésimo nono aniversário. No teledisco de _L
 
 Transformou a própria morte numa obra de arte milimetricamente encenada. Não nos deu tempo para termos pena dele e apagou a luz antes que pudéssemos aplaudir.
 
-Foi-se embora como viveu: deixando toda a gente na dúvida sobre se tínhamos acabado de testemunhar a morte de um homem extraordinariamente talentoso ou se, afinal de contas, aquele marciano com um olho de cada cor estava apenas farto do nosso planeta e resolveu apanhar a nave espacial a caminho de casa.
+Foi-se embora como viveu: deixando muita gente na dúvida sobre se tinham acabado de testemunhar a morte de um homem extraordinariamente talentoso ou se, afinal de contas, aquele marciano com um olho de cada cor estava apenas farto do nosso planeta e resolveu apanhar a nave espacial a caminho de casa.
 
+---
 
+<div align="Right">Joaquim Capitão</div>  
 
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
 
