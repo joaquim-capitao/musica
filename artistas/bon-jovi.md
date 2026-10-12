@@ -4,6 +4,8 @@ Tudo começa começa com o Jon.
 
 John Francis Bongiovi Jr. olhou para o espelho, viu um maxilar talhado pelos anjos e pensou: *"Eu posso ser contabilista, ou posso ser o homem que faz três gerações de mães e filhas suspirarem"*. Ele escolheu a segunda. É legítimo. É uma decisão de carreira como outra qualquer.
 
+![](https://i.discogs.com/cNyeiVFAn8KRHPzmStXFJ9b2cl9jQJSHqIQ3n-K96RM/rs:fit/g:sm/q:90/h:480/w:485/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNDU0/MS0xMzYxNTUxOTA3/LTY2NDEuanBlZw.jpeg)
+
 O Jon trabalhava a varrer o chão do Power Station Studios, em Nova Iorque, que pertencia ao primo. Varria o chão e olhava para os botões da mesa de mistura como quem olha para uma bifana às três da manhã: com respeito e fome. Gravou uma canção chamada "Runaway". Não tinha banda, não tinha nada. Tinha apenas fé, uma permanente impecável e a audácia de quem sabe que a rádio local adora uma boa dor emocional acompanhada por um sintetizador.
 
 A canção funcionou. E quando uma canção funciona, tu precisas de amigos. Ou, pelo menos, de pessoas que tolerem estar fechadas numa carrinha contigo a cheirar a suor e a couro sintético. É aí que aparece o Richie Sambora. Sambora não é apenas um guitarrista; é uma entidade. O homem olhou para o Jon e disse: "Eu vou ser o teu braço direito e vou inventar um efeito de guitarra com um tubo de plástico na boca que vai convencer o mundo ocidental de que os anos oitenta foram uma coisa muito profunda". E juntam-se o Tico Torres na bateria (um homem que bate nos pratos com a força de quem foi enganado num orçamento das obras de casa ), o David Bryan nas teclas e o Alec John Such no baixo.
