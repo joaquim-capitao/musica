@@ -1,6 +1,6 @@
 # Escolhas da Minha Juventude
 
-As escolhas musicais são quase sempre reféns da época em que fomos apanhados, das circunstâncias peculiares de cada fase, do que tocava no gira-discos ou na rádio. Partilho a seguir a banda sonora que marcou a minha infância e adolescência, e que, inevitavelmente, ficou colada à minha memória.  
+As escolhas musicais são quase sempre reféns da época em que fomos apanhados, das circunstâncias peculiares de cada fase, do que tocava no gira-discos ou na rádio. Partilho a seguir uma parte da banda sonora que marcou a minha infância e adolescência, e que, inevitavelmente, ficou colada à minha memória.  
 
 ### Álbuns Pop e Rock
 
