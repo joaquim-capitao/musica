@@ -22,8 +22,9 @@ No fundo, temos de agradecer à Islândia. Podiam ter-nos enviado apenas cinza v
 
 ---
 
-<div align="Right">Joaquim Capitão</div>
+<div align="Right">Joaquim Capitão</div>  
 
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
 
 
 
