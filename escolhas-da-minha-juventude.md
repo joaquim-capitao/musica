@@ -2,7 +2,7 @@
 
 As escolhas musicais são quase sempre reféns da época em que fomos apanhados, das circunstâncias peculiares de cada fase, do que tocava no gira-discos ou na rádio. Partilho a seguir a banda sonora que marcou a minha infância e adolescência, e que, inevitavelmente, ficou colada à minha memória.  
 
-### Álbuns de Música
+### Álbuns Pop e Rock
 
 [Björk - Greatest Hits](https://www.youtube.com/watch?v=i-UXy-b8TaU)  
 [Bruce Springsteen - Greatest Hits](https://www.youtube.com/watch?v=mwq4Ps-rTaE)   
@@ -29,13 +29,8 @@ As escolhas musicais são quase sempre reféns da época em que fomos apanhados,
 
 
 
-### Coletânias
+### Música Clássica
 
-[Disco Music - 70s](https://www.youtube.com/watch?v=TsuVAQkfCes)  
-[Greatest Hits - Radio - 500](https://www.youtube.com/watch?v=NNJeKXr1I2w&list=PLpxuOeEi0yCQtge9JUBOH--_yqg-jUm4h)  
-[A Gata Comeu - Internacional](https://www.youtube.com/watch?v=vYsCnBKb5n4&list=PL8TAMERtpPxeju_ls2GIO0lxGZPZXQbey&index=2)  
-[About Time](https://www.youtube.com/watch?v=NgHKfoWHWNo&list=PL8TAMERtpPxeju_ls2GIO0lxGZPZXQbey)  
 [HOOKED ON CLASSICS VOL.1](https://www.youtube.com/watch?v=xd6pslAA1E0&list=RDxd6pslAA1E0&start_radio=1)  
 [HOOKED ON CLASSICS VOL.2](https://www.youtube.com/watch?v=0px0-oaaiqU&list=RD0px0-oaaiqU&start_radio=1)  
 [HOOKED ON CLASSICS VOL.3](https://www.youtube.com/watch?v=YeTWqNeJyQM&list=RDYeTWqNeJyQM&start_radio=1)  
-[Legends of Jazz & Soul ](https://www.youtube.com/watch?v=zLQLpBbJ09A&list=PL8TAMERtpPxeju_ls2GIO0lxGZPZXQbey&index=7)  
