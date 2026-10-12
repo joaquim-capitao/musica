@@ -1,4 +1,8 @@
-# Álbuns de Música
+# Links para o Youtube
+
+As escolhas musicais são quase sempre reféns da época em que fomos apanhados, das circunstâncias peculiares de cada fase, do que tocava no gira-discos ou na rádio. Partilho a seguir a banda sonora que marcou a minha infância e adolescência, e que, inevitavelmente, ficou colada à minha memória.  
+
+### Álbuns de Música
 
 [Cranberries- Greatest Hits](https://www.youtube.com/watch?v=xL9p9UEHaB4)  
 [Dido - Best of](https://www.youtube.com/watch?v=xFwqTVOG9Z8&list=PL8TAMERtpPxfvYNEaHUK1Dwu-4zhwwm_u&index=40)   
@@ -8,12 +12,15 @@
 [Joe Satriani – The Extremist](https://www.youtube.com/watch?v=0Bg8oo7PZVY)   
 [Queen - Greatest Hits II](https://www.youtube.com/watch?v=j440-D5JhjI)  
 [Queen - Greatest Hits I](https://www.youtube.com/watch?v=_Uu12zY01ts)  
+[Queen - Innuendo](https://www.youtube.com/watch?v=KNYcvEqWTI0)
+[R.E.M - Automatic for The People](https://www.youtube.com/watch?v=lVkp0vPZxfU)  
+[R.E.M - Out of Time](https://www.youtube.com/watch?v=PX3oP5joWBI)  
 [Sade - Best of](https://www.youtube.com/watch?v=c_lgse6-JKo&list=PLRkE5-eyt9iVY7n9jJJtAJazzM-F6DASg)   
 [Sheryl Crow - Greatest Hits](https://www.youtube.com/watch?v=MZ988GHQJz0&list=PL8TAMERtpPxfvYNEaHUK1Dwu-4zhwwm_u&index=56)   
 
 
 
-## Coletânias
+### Coletânias
 
 [Disco Music - 70s](https://www.youtube.com/watch?v=TsuVAQkfCes)  
 [Greatest Hits - Radio - 500](https://www.youtube.com/watch?v=NNJeKXr1I2w&list=PLpxuOeEi0yCQtge9JUBOH--_yqg-jUm4h)  
