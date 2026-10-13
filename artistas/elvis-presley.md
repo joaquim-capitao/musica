@@ -22,4 +22,7 @@ No fim, a 16 de agosto de 1977, o Rei morreu. Não caiu em batalha nem no palco 
 
 ---
 
-Joaquim Capitão
+<div align="Right">Joaquim Capitão</div>  
+
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
+
