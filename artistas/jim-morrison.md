@@ -18,7 +18,7 @@ E no meio disto tudo, a relação doentia com Pamela Courson. Duas pessoas que s
 
 Farto da América, farto da polícia e farto do próprio reflexo no espelho, fugiu para Paris em 1971. Queria ser poeta. Só se esqueceu de que Paris, no inverno, é um sítio extraordinariamente cinzento para quem já traz a alma em gangrena. Passeava pelas ruas gordo, a tossir sangue, a arfar nas escadas, esquecido por quase todos.
 
-A três de julho de 1971, aos vinte e sete anos (porque o cliché dos 27 anos tinha de ser cumprido com rigor burocrático), Pamela encontra-o morto dentro da banheira de um apartamento arrendado. Sem autópsia. Sem anúncio público durante dias. Um enterro à pressa no cemitério de Père Lachaise com meia dúzia de pessoas a olhar para a terra, sem padre, sem cerimónia, como quem deita fora um embrulho estragado.
+A três de julho de 1971, aos vinte e sete anos (porque o cliché dos 27 anos tinha de ser cumprido com rigor), Pamela encontra-o morto dentro da banheira de um apartamento arrendado. Sem autópsia. Sem anúncio público durante dias. Um enterro à pressa no cemitério de Père Lachaise com meia dúzia de pessoas a olhar para a terra, sem padre, sem cerimónia, como quem deita fora um embrulho estragado.
 
 Tinha vinte e sete anos, mas se olharem para as últimas fotografias dele em Paris, parece um homem de cinquenta que passou a vida a descarregar sacos de cimento numa pedreira.
 
