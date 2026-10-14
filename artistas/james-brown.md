@@ -1,6 +1,8 @@
-# James Brown. 
+# James Brown
 
 O mundo conhece-o como o _"Padrinho da Soul"_, o homem que berrava _I feel good_ como se estivesse genuinamente a sentir-se bem, o que é a maior fraude de marketing da história da música negra americana. Ninguém que tenha tido a vida de James Brown se sentiu alguma vez verdadeiramente _"good"_. Se muito, sentiu-se _"vivo por lapso das autoridades"_.
+
+![](https://www.rollingstone.com/wp-content/uploads/2018/06/rs-8764-jamesbrown-624-1356107150.jpg)
 
 A coisa começa logo com uma subtileza: quando nasce, numa cabana de madeira na Carolina do Sul em 1933, nasce tão imóvel que a parteira acha que ele já vem morto. Estão literalmente a embrulhá-lo para o deitar fora quando uma tia lhe sopra para a boca e ele dá o primeiro choro. Basicamente, a vida deu-lhe uma saída limpa e a família insistiu para ele ficar. Primeiro erro.
 
@@ -27,6 +29,11 @@ Morreu, com uma pontualidade poética absolutamente grotesca, na manhã de Natal
 Não era. James Brown era um miúdo esfomeado que passou setenta e três anos a berrar ao microfone para ver se abafava o barulho da própria desgraça. E a humanidade, que é uma espécie admirável, pagou bilhete para bater palmas a isso.
 
 ---
+
+<div align="Right">Joaquim Capitão</div>  
+
+[<-- Página Anterior](https://joaquim-capitao.github.io/musica/artistas)
+
 
 
 
