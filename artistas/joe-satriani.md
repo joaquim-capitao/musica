@@ -1,20 +1,18 @@
 # Joe Satriani 
 
-Joe Satriani é aquele indivíduo que, a olhar para uma guitarra, não vê um instrumento de madeira com seis cordas. Vê uma desfeita pessoal que precisa de ser corrigida a trezentas notas por minuto. Há qualquer coisa de perturbador num homem que decide: "Eu não vou cantar. Eu não vou dizer palavras a ninguém. O mundo já tem palavras a mais."
-
-Tudo começa em 1970. Morre o Jimi Hendrix, uma tragédia imensa, e o jovem Joe, que na altura jogava futebol americano, larga a bola no campo, vai para casa e anuncia à mãe: "Vou ser guitarrista." Não houve hesitação, não houve "se calhar vou tirar Direito e tocar aos fins de semana". Não. Foi um corte radical com o bom senso.
-
-Durante anos, o Satriani fechou-se num quarto a praticar até os dedos ganharem a consistência de solas de sapato. E como a vida tem um sentido de humor muito específico, o homem começou a dar aulas. Teve alunos. Não alunos normais que queriam aprender a tocar a introdução de uma cantiga de fogueira para impressionar raparigas na praia. Não. Ensinou o Steve Vai, o Kirk Hammett dos Metallica, malta que claramente precisava de acompanhamento psiquiátrico antes de ter pegado numa palheta. O Satriani era uma espécie de mestre Miyagi, só que em vez de ensinar a encerar o chão, ensinava a destrancar o tendão do polegar.
-
-Depois chega o final dos anos 80 e o homem decide lançar discos a solo. Só ele e a guitarra. Sem vocalista com juba a gritar sobre o amor e motas. E a coisa funciona. Lança um álbum chamado *Surfing with the Alien*. Pôs um boneco prateado na capa e vendeu milhões. Milhões de pessoas a comprarem um disco que não tem um único refrão para trautear no duche, a menos que a pessoa queira fazer barulhos com a boca.
+O drama de Satriani começa logo com uma morte fundadora. Aos catorze anos, no dia 18 de setembro de 1970, morre Jimi Hendrix. Joe está nos treinos de futebol americano da escola, onde provavelmente já se sentia desajustado, recebe a notícia, vai ter com o treinador e diz-lhe na cara: *"Vou-me embora para ser guitarrista"*. É um momento bonito, quase cinematográfico, não fosse o detalhe de que, para homenagear um tipo caótico que incendiava guitarras com fluido de isqueiro, Joe decidiu fechar-se num quarto durante dez horas por dia a estudar escalas com disciplina.
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg58fVVe0eqos4BIPloYqJ1F0tgHZhhQ_Jc9FJRx576_dJenNlB8-Y2zJWII8NJGv49RyINQTnizVvVe8P23olC41adHNfGrn41GhDyvS8rC4uG-gCBFiA2a9gbEYMjGMtIb85M4eX6d5c/s400/Joe+Satriani.gif)
 
-Mais tarde, o cabelo começou a rarear. Qualquer outro músico de rock entrava em depressão, gastava uma fortuna em implantes na Turquia ou punha uma peruca ridícula. O Satriani não. O Satriani olhou para o espelho, rapou a cabeça até ficar com o crânio liso como um ovo de avestruz, meteu uns óculos de sol espelhados que nunca mais tirou na vida. Desconfio que dorme com eles para não ver os próprios sonhos. E assumiu: "Pronto. Agora sou o próprio alien."
+Aqui reside a primeira desgraça: Satriani é um homem que cometeu o erro fatal de não ter vícios destrutivos. Não se desintegrou com heroína, não foi encontrado nu numa fonte pública, não cuspiu na cara de nenhum agente. Casou com a namorada dos tempos de liceu, manteve o casamento a vida inteira e construiu uma reputação impecável. Para a mitologia do rock, isto é o equivalente a pedir uma salada numa churrasqueira de beira de estrada. O mundo gosta de génios que morrem aos vinte e sete anos, mas desconfia de homens calvos que cumprem os prazos de entrega e pagam as finanças a horas.
 
-É isto que me fascina nele. Enquanto o resto da humanidade se debate com coisas mundanas (o preço do azeite, as dores nas costas ao acordar, a gaveta dos talheres que emperra), o Joe Satriani acorda de manhã, veste uma t-shirt preta, põe os óculos de sol dentro de casa e passa sete horas seguidas a fazer alavancadas numa Ibanez cromada, convencido de que aquilo faz todo o sentido.
+Depois, veio o facto ingrato de ser professor. Joe passou anos a ensinar guitarra para conseguir pagar as contas. E quem foram os seus alunos? Kirk Hammett, Steve Vai, Alex Skolnick. Todos os rapazes a quem ele ensinou a posicionar os dedos acabaram em bandas que enchem estádios inteiros. É o equivalente a alguém criar três filhos prodígio que vão para Harvard e, no Natal, mandam-lhe apenas um postal com uma foto na piscina.
 
-E a verdade, que é o que mais me chateia nisto tudo, é que faz.
+Quando finalmente explode com *Surfing with the Alien*, em 1987, acontece a ironia suprema. Ele grava um disco extraordinário de música instrumental onde põe uma guitarra a falar, a chorar e a cantar melhor do que 90% dos vocalistas da época. O que é que as pessoas retiram dali? "Ena, mexe os dedos muito depressa". 
+
+E para rematar o absurdo da existência, quando ele finalmente compôs uma melodia comovente, delicada, daquelas que ficam agarradas ao peito, a "If I Could Fly", de 2004, uns anos mais tarde os Coldplay pegaram na mesmíssima sequência harmónica, chamaram-lhe "Viva La Vida" e ganharam Grammys, milhões de dólares e a consagração cósmica perante multidões a cantarolar o refrão. Satriani olhou para aquilo, processou-os, o caso acabou num acordo amigável e discreto fora dos tribunais, e o público em geral continuou convencido de que a canção era do Chris Martin.
+
+A tragédia de Joe Satriani é essa: a solidão do operário perfeito. É a história de um homem que dominou a física e a alma do instrumento até ao limite do humanamente possível, para acabar a tocar na perfeição para uma plateia de quatrocentos homens de meia-idade.
 
 ---
 
