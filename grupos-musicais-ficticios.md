@@ -11,7 +11,7 @@ Grupo criado exclusivamente para o filme *Music and Lyrics*.
 Vídeo:   
 [Goes My Heart](https://m.youtube.com/watch?v=xVkU8dDSC9w&list=RDxVkU8dDSC9w&start_radio=1&pp=ygUNUG9wIGh1ZyBncmFudKAHAQ%3D%3D)
 
-
+---
 ### Hugh Grant and Haley Bennett  
 Dupla do filme *Music and Lyrics*.  
 
