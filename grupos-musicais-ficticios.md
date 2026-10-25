@@ -8,21 +8,28 @@ Apresento abaixo uma pequena lista de grupos musicais que nunca existiram:
 ### PoP!
 Grupo criado exclusivamente para o filme *Music and Lyrics*.   
 
-Videoclip:   
+Vídeo:   
 [Goes My Heart](https://m.youtube.com/watch?v=xVkU8dDSC9w&list=RDxVkU8dDSC9w&start_radio=1&pp=ygUNUG9wIGh1ZyBncmFudKAHAQ%3D%3D)
+
+
+### Hugh Grant and Haley Bennett  
+Dupla do filme *Music and Lyrics*.  
+
+Vídeo:
+[Way Back Into Love](https://youtu.be/gjTi52Zbuig)
 
 ---
 ### The Soggy Bottom Boys
 Grupo criado para o filme *O Brother, Where Art Thou?*.    
 
-Videoclip:  
+Vídeo:  
 [I Am a Man Of Constant Sorrow](https://m.youtube.com/watch?v=5fkWheDcI50&list=RD5fkWheDcI50&start_radio=1&pp=ygUpaSBhbSBhIG1hbiBvZiBjb25zdGFudCBzb3Jyb3cgbXVzaWMgdmlkZW-gBwE%3D)
 
 ---
 ### Fire Saga
 Dupla composta pelos personagens de Will Ferrell e Rachel McAdams no filme _Eurovision Song Contest: The Story of Fire Saga_.   
 
-Videoclip:   
+Vídeos:   
 [Volcano Man](https://m.youtube.com/watch?v=AdW6BBF22AY&list=RDAdW6BBF22AY&start_radio=1&pp=ygULVm9sY2FubyBtYW6gBwE%3D)  
 [My Home Town](https://m.youtube.com/watch?v=qjuphuG3ndw&list=RDqjuphuG3ndw&start_radio=1&pp=ygUuZXVyb3Zpc2lvbiBzb25nIGNvbnRlc3QgdGhlIHN0b3J5IG9mIGZpcmUgc2FnYaAHAQ%3D%3D)
 
