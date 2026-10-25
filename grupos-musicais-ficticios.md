@@ -23,7 +23,8 @@ Videoclip:
 Dupla composta pelos personagens de Will Ferrell e Rachel McAdams no filme _Eurovision Song Contest: The Story of Fire Saga_.   
 
 Videoclip:   
-[Volcano Man](https://m.youtube.com/watch?v=AdW6BBF22AY&list=RDAdW6BBF22AY&start_radio=1&pp=ygULVm9sY2FubyBtYW6gBwE%3D)
+[Volcano Man](https://m.youtube.com/watch?v=AdW6BBF22AY&list=RDAdW6BBF22AY&start_radio=1&pp=ygULVm9sY2FubyBtYW6gBwE%3D)  
+[My Home Town](https://m.youtube.com/watch?v=qjuphuG3ndw&list=RDqjuphuG3ndw&start_radio=1&pp=ygUuZXVyb3Zpc2lvbiBzb25nIGNvbnRlc3QgdGhlIHN0b3J5IG9mIGZpcmUgc2FnYaAHAQ%3D%3D)
 
 
 
